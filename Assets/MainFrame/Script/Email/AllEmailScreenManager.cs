@@ -61,6 +61,8 @@ namespace Overture.FrameGame
                 POS += new Vector3(0, Y_POS_DIFF, 0);
             }
         }
+        
+        
 
         //Function called to destroy all entries on display
         public void DestroyList()
@@ -77,6 +79,12 @@ namespace Overture.FrameGame
             //Debug.Log("Entry list has a count of: " + ENTRY_LIST.Count);
         }
 
+        //Function called to update the list, showing the email's current status
+        public void UpdateList()
+        {
+            
+
+        }
 
     }
 }

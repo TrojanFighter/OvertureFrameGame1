@@ -24,7 +24,7 @@ namespace Overture.FrameGame
 			ONE_EMAIL_SCREEN,
 			END_GAMESCREEN;
 
-		public EmailSiteState STATE = EmailSiteState.AllEmails;
+		public EmailSiteState EmailReadingState = EmailSiteState.AllEmails;
 
 		//Function to restart the game
 		public void Restart()
@@ -65,7 +65,7 @@ namespace Overture.FrameGame
 				case GameStateManager.GameState.MailReading:
 					
 					//Handle the state of player input
-					switch (STATE)
+					switch (EmailReadingState)
 					{
 						case EmailSiteState.AllEmails:
 							//If this isn't on, turn it on.
@@ -79,7 +79,7 @@ namespace Overture.FrameGame
 							}
 
 							//Update the list, refresh more mails
-							//ALL_EMAIL_SCREEN.GetComponent<AllEmailScreenManager>().UpdateList(ACTION_LIST);
+							ALL_EMAIL_SCREEN.GetComponent<AllEmailScreenManager>().UpdateList();
 							break;
 						case EmailSiteState.OneEmail:
 							ONE_EMAIL_SCREEN.GetComponent<OneEmailScreenManager>().SetEmail(SELECTED_EMAIL);
@@ -98,9 +98,6 @@ namespace Overture.FrameGame
 							Debug.Log("Error, shouldn't happen. Email site state is invalid.");
 							break;
 					}
-
-					break;
-					
 					break;
 				case GameStateManager.GameState.Gaming:
 					break;
@@ -126,7 +123,7 @@ namespace Overture.FrameGame
 		//Function that sets the state of the email
 		public void SetCurrentState(EmailSiteState TEMP)
 		{
-			STATE = TEMP;
+			EmailReadingState = TEMP;
 		}
 
 	}

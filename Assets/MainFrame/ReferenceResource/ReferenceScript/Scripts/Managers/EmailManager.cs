@@ -255,7 +255,7 @@ namespace Reference
         public void resetScroll()
         {
             ToolTip.SetActive(false);
-            FindScrollView(GameObject.Find("Desktop"), "Scroll View").GetComponent<ScrollRect>()
+            FindScrollView(GameObject.Find("OvDesktop"), "Scroll View").GetComponent<ScrollRect>()
                 .verticalNormalizedPosition = 1.0f;
         }
 
