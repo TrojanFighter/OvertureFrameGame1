@@ -14,10 +14,10 @@ public class StageConfig : ScriptableObject {
     }
     
 
-    [SerializeField] private List<GameObject> _levelMessage;
-    public List<GameObject> _LevelMessage
+    [SerializeField] private List<string> _levelEmail;
+    public List<string> _LevelEmail
     {
-        get { return _levelMessage; }
+        get { return _levelEmail; }
     }
     
     [SerializeField] private List<string> _levelName;

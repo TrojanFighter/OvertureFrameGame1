@@ -12,3 +12,10 @@ public class EmailContent
     public string SENDER, SUBJECT, DATE, BODY_TEXT;
     public Sprite BODY_IMG;
 }
+
+public class StageContent
+{
+    public int stageNum;
+    public string EmailNameToLoad;
+    public string LevelNameToLoad;
+}
