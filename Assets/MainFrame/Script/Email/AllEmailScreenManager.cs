@@ -77,38 +77,6 @@ namespace Overture.FrameGame
             //Debug.Log("Entry list has a count of: " + ENTRY_LIST.Count);
         }
 
-        //Function called to update the list, showing the email's current status
-        public void UpdateList(List<GameManager.PlayerAction> ACTION_LIST)
-        {
-            if (ACTION_LIST.Count == ENTRY_LIST.Count)
-            {
-                int index = 0;
-                foreach (EntryController ENTRY in ENTRY_LIST)
-                {
-                    switch (ACTION_LIST[index])
-                    {
-                        case EmailManager.PlayerAction.Accepted:
-                            ENTRY.GetComponent<Image>().color = ACCEPTED;
-                            break;
-                        case EmailManager.PlayerAction.Declined:
-                            ENTRY.GetComponent<Image>().color = REJECTED;
-                            break;
-                        case EmailManager.PlayerAction.Important:
-                            ENTRY.GetComponent<Image>().color = IMPORTANT;
-                            break;
-                        default:
-                            break;
-                    }
 
-                    index++;
-                }
-            }
-            else
-            {
-                Debug.Log("For some reason action and entry list don't have the same count. Entry: " +
-                          ENTRY_LIST.Count + " Action: " + ACTION_LIST.Count);
-            }
-
-        }
     }
 }

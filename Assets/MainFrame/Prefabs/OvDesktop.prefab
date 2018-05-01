@@ -1270,6 +1270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4360626589692994}
   - component: {fileID: 114720560582149876}
+  - component: {fileID: 114628495665256742}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1829,10 +1830,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 780102b06fb575f43a3fc8d9b9cdff0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MESSAGE: {fileID: 114551090988554304}
-  EM: {fileID: 114720560582149876}
-  BAD_ENDING_THRESHOLD: -16
-  GOOD_ENDING_THRESHOLD: 39
+  MESSAGE: {fileID: 0}
+  EM: {fileID: 0}
+  BAD_ENDING_THRESHOLD: -30
+  GOOD_ENDING_THRESHOLD: 40
 --- !u!114 &114035474689564774
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2118,17 +2119,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d13c71e0b7159b34eabe94f441494757, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ENTRY_OBJECT: {fileID: 1787179533777890, guid: 52fb96bb28ffbb64193637b95d94bc9e,
-    type: 2}
-  HEADER: {fileID: 1117336818577772}
-  BAR: {fileID: 114076852428814964}
-  CONTENT: {fileID: 1175320688726828}
-  X_POS: 367.5
-  Y_POS_INIT: 300
-  Y_POS_DIFF: -40
-  ACCEPTED: {r: 0.6738337, g: 1, b: 0.64705884, a: 1}
-  REJECTED: {r: 0.9632353, g: 0.7224265, b: 0.7224265, a: 1}
-  IMPORTANT: {r: 1, g: 0.94036514, b: 0.6911765, a: 1}
+  ENTRY_OBJECT: {fileID: 0}
+  HEADER: {fileID: 0}
+  BAR: {fileID: 0}
+  CONTENT: {fileID: 0}
+  X_POS: 0
+  Y_POS_INIT: 0
+  Y_POS_DIFF: 30
+  ACCEPTED: {r: 0, g: 0, b: 0, a: 0}
+  REJECTED: {r: 0, g: 0, b: 0, a: 0}
+  IMPORTANT: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &114080724860720562
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2513,11 +2513,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8986df0508461024e8c5a24f347f23b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  INIT_OBJECTS:
-  - {fileID: 1724730030643148}
-  - {fileID: 1490102727761944}
-  - {fileID: 1326973989274536}
-  MESSAGE: {fileID: 114313009810778702}
+  INIT_OBJECTS: []
+  MESSAGE: {fileID: 0}
 --- !u!114 &114174633302108162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3307,23 +3304,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf3ed0340d1f31748916dfaf80bd4937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  STATUS_TEXT: {fileID: 114949935556638908}
-  WEEK_ONE_STATUS: Just got SmartScreen bot! Hopefully it doesn't delete all my anime
-    ads...
-  WEEK_TWO_STATUS:
-  - Going through a rough patch...but I am not going to let that get me down!
-  - I wish this day could be a little bit longer :)
-  - Today I tried to be better. I just wish everyone else did as well.
-  WEEK_THREE_STATUS:
-  - If anyone has a minute, DM me. I feel like I need someone to talk to.
-  - I didn't have to decide to be happy today :)
-  - This is good enough.
-  WEEK_FOUR_STATUS:
-  - Leave all the f_bois behind. There are more important things to focus on
-  - Thinking of you Mom. Love you.
-  - Going to bed now. Let's see what tomorrow holds for us.
-  BadThreshold: ffffffff0800000000000000f8fffffff0ffffff
-  GoodThreshold: ffffffff0f000000170000001f00000027000000
+  STATUS_TEXT: {fileID: 0}
+  WEEK_ONE_STATUS: 
+  WEEK_TWO_STATUS: []
+  WEEK_THREE_STATUS: []
+  WEEK_FOUR_STATUS: []
+  BadThreshold: 
+  GoodThreshold: 
 --- !u!114 &114411782355871610
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3457,18 +3444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LOAD_EVENT:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114720560582149876}
-        m_MethodName: SetGameStateManager
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114449536989777406
@@ -3585,34 +3561,14 @@ MonoBehaviour:
   currentLine: 
   currentWeekLine: 
   currentLetterIndex: 0
-  stopIndex: -1
-  deleteIndex: -1
+  stopIndex: 0
+  deleteIndex: 0
   currentDeleteCount: 0
-  UI_Text: {fileID: 114313009810778702}
-  WeeklyHappinessMessages:
-  - 
-  - ' Also, I''m not doing too well. Please make sure you let the right emails through.
-    I would hate to miss someone''s transmission...'
-  - ' Everything is good with me though :) Thanks for doing your best'
-  - ' Ok, that''s it for now. Keep up the status quo I guess...'
-  - ' Anywho, things are hitting the fan pretty hard. Please make sure I have access
-    to all the right emails'
-  - ' All that is not going to rain on my parade though! Keep it up :)'
-  - ' Dang... One more week gone. Let''s just keep it going then.'
-  - ' Gosh this is tough. I don''t know if i can keep it going...'
-  - ' Don''t worry about me too much though. I''ve dealt It''s funny these guys think
-    they can affect me. I''m doing fine without them. Let''s just focus on the fam.'
-  - ' Well, here we are again. Let''sget through this week one day at a time.'
-  WeeklyMessages:
-  - THIS SHOULD NOT GET ACCESSED
-  - Ok this week, if you see a Message from Mike make sure to send that my way! Everything
-    else should just be the same.
-  - What's up with all these guys. I want to see if i get anything from my Boss. NAME
-    I need some distraction. Send up whatever looks fun.
-  - What the hell? What is going on with these lads. Any news from mom? This month
-    has been rough NAME. If you have anything I might like, let me see it.
-  BadThreshold: ffffffff0800000000000000f8fffffff0ffffff
-  GoodThreshold: ffffffff0f000000170000001f00000027000000
+  UI_Text: {fileID: 0}
+  WeeklyHappinessMessages: []
+  WeeklyMessages: []
+  BadThreshold: 
+  GoodThreshold: 
 --- !u!114 &114479460444725046
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4121,20 +4077,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 517650fc6aa224c4780ac74e60f2d800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BACKGROUND: {fileID: 114035769092058804}
-  OVERLAY: {fileID: 114648252673406102}
-  WAKE_COLOR: {r: 0.9019608, g: 0.72156864, b: 0.6117647, a: 1}
-  INBOX_COLOR: {r: 1, g: 0.8980392, b: 0.8509804, a: 1}
-  EMAIL_COLOR: {r: 0.84705883, g: 0.8862745, b: 0.8627451, a: 1}
-  SLEEP_COLOR: {r: 0.4, g: 0.41568628, b: 0.5254902, a: 1}
-  MESSAGE_COLOR: {r: 0.95686275, g: 0.6745098, b: 0.7176471, a: 1}
+  BACKGROUND: {fileID: 0}
+  OVERLAY: {fileID: 0}
+  WAKE_COLOR: {r: 0, g: 0, b: 0, a: 0}
+  INBOX_COLOR: {r: 0, g: 0, b: 0, a: 0}
+  EMAIL_COLOR: {r: 0, g: 0, b: 0, a: 0}
+  SLEEP_COLOR: {r: 0, g: 0, b: 0, a: 0}
+  MESSAGE_COLOR: {r: 0, g: 0, b: 0, a: 0}
   END_COLOR: {r: 0, g: 0, b: 0, a: 0}
-  WAKE_OP: 0.5
-  INBOX_OP: 0.8
-  EMAIL_OP: 0.8
-  SLEEP_OP: 0.2
-  MESSAGE_OP: 0.5
-  END_OP: 0.2
+  WAKE_OP: 0
+  INBOX_OP: 0
+  EMAIL_OP: 0
+  SLEEP_OP: 0
+  MESSAGE_OP: 0
+  END_OP: 0
 --- !u!114 &114574916517073166
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4363,6 +4319,23 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114628495665256742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1653729684235206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e50b515c08ed2cb44b4cdf5b1319e161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WEEK: 0
+  ProgressCounter: 0
+  ALL_EMAIL_SCREEN: {fileID: 1415590418418362}
+  ONE_EMAIL_SCREEN: {fileID: 1031279415717324}
+  END_GAMESCREEN: {fileID: 1512698714716254}
+  STATE: 0
 --- !u!114 &114640596311583928
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4689,55 +4662,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EMAIL_LIST: []
   ACTION_LIST: 
-  WEEK_ONE_LIST:
-  - {fileID: 114414776924387324, guid: 3ea45344271120343921a17cef463e7c, type: 2}
-  - {fileID: 114881506022958940, guid: b496407bfd3197844bef35e57041a69c, type: 2}
-  - {fileID: 114183818060376748, guid: 0c2bff34a8f0c0c4f96ac09448dba7fe, type: 2}
-  - {fileID: 114342098708775934, guid: 89099ada528cffd4d9b37caeeea08c3d, type: 2}
-  - {fileID: 114879590715978434, guid: c566d4af6edd53942a1de26baa97402c, type: 2}
-  - {fileID: 114561200034596610, guid: ef2d809db8a36e143a05fb93051c01b3, type: 2}
-  - {fileID: 114875016957103906, guid: 3bc33013c1af61d438f10dd2d1cd581c, type: 2}
-  - {fileID: 114874904779584276, guid: af4c7467822b0b546815e4040c292e7d, type: 2}
-  - {fileID: 114185957151369736, guid: b403aad253e66364790dc044d961cefa, type: 2}
-  - {fileID: 114012540036024698, guid: 3e9a90fd9f6eae94d9353fcd68ca6796, type: 2}
-  WEEK_TWO_LIST:
-  - {fileID: 114551770892158282, guid: 04cbe1acf7c17f946806d8118d2d987e, type: 2}
-  - {fileID: 114701949288962082, guid: 6038e7ae60661c545a3d84a35153235e, type: 2}
-  - {fileID: 114048324798269936, guid: 13315b48533d0b24fa2cf31777828183, type: 2}
-  - {fileID: 114470265048405286, guid: c07cfaec3bc82f744b1d309de102612d, type: 2}
-  - {fileID: 114539200048042138, guid: ed971eae4783bbe44a0f434b8bc2cf73, type: 2}
-  - {fileID: 114162808223717750, guid: 0bbb6a0906a69d644bc4dbcf95980201, type: 2}
-  - {fileID: 114124495209402186, guid: e9ad48680ca39a34991e381e723c5729, type: 2}
-  WEEK_THREE_LIST:
-  - {fileID: 114536749118140900, guid: c12e8cd76fb20bd498358155090a651d, type: 2}
-  - {fileID: 114239467036216302, guid: f7f558d7e44b4bc45a675f182bbe41f3, type: 2}
-  - {fileID: 114075629317430774, guid: 276fdf0e40e853a41b7cde94fd7fb6e2, type: 2}
-  - {fileID: 114423213490005794, guid: 81a08bbc65e700a4a86f4820f9475a92, type: 2}
-  - {fileID: 114392011561895272, guid: 100e4ae94a1f20943910a50f53017170, type: 2}
-  - {fileID: 114304683968120466, guid: 407fca27ef68af145a3c96b03f1c301c, type: 2}
-  - {fileID: 114980919626533576, guid: dc61405d49ef7b94dab03660e35b2589, type: 2}
-  WEEK_FOUR_LIST:
-  - {fileID: 114975002663859262, guid: d98dd87fef2063547a81db320ac0571c, type: 2}
-  - {fileID: 114297514465944926, guid: 6b88811ac80cb9948a25df8c72fb04fc, type: 2}
-  - {fileID: 114743036888962724, guid: 694e1fb73f105ab49b09ac432c410e4b, type: 2}
-  - {fileID: 114894260628471644, guid: c35b219dcd41e564086290d5cf346c92, type: 2}
-  - {fileID: 114224258334771442, guid: 11ac6f86a5e289b418953fd4d679cd00, type: 2}
-  - {fileID: 114180959098960682, guid: 8b792b48ec0b884478df0948dd5358f6, type: 2}
-  - {fileID: 114953380582433226, guid: 974d1ba26c8217940a0666dd3cbbdc08, type: 2}
+  WEEK_ONE_LIST: []
+  WEEK_TWO_LIST: []
+  WEEK_THREE_LIST: []
+  WEEK_FOUR_LIST: []
   WEEK: 0
   STATE: 0
   HAPPINESS: 0
   STORY_ENDING: 000000
-  ALL_EMAIL_SCREEN: {fileID: 1415590418418362}
-  ONE_EMAIL_SCREEN: {fileID: 1031279415717324}
-  DAY_BEGIN_SCREEN: {fileID: 1497064614158688}
-  PROCESS_SCREEN: {fileID: 1229904311706994}
-  STATUS_BAR: {fileID: 1629418067221378}
-  END_SCREEN: {fileID: 1512698714716254}
-  DESKTOP: {fileID: 1990523774574706}
-  PLAYER_NAME: 
-  BM: {fileID: 114572689913017744}
-  ToolTip: {fileID: 1133097498105500}
+  ALL_EMAIL_SCREEN: {fileID: 0}
+  ONE_EMAIL_SCREEN: {fileID: 0}
+  DAY_BEGIN_SCREEN: {fileID: 0}
+  PROCESS_SCREEN: {fileID: 0}
+  STATUS_BAR: {fileID: 0}
+  END_SCREEN: {fileID: 0}
+  DESKTOP: {fileID: 0}
+  PLAYER_NAME: my dude
+  BM: {fileID: 0}
+  ToolTip: {fileID: 0}
 --- !u!114 &114736745491836736
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5283,11 +5225,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dbffc2cfc5ade64a8b3455376c1357d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SENDER_TEXT: {fileID: 114174633302108162}
-  SUBJECT_TEXT: {fileID: 114204833366327810}
-  DATE_TEXT: {fileID: 114640596311583928}
-  BODY_TEXT: {fileID: 114406919402227078}
-  BODY_IMAGE: {fileID: 114071179319158178}
+  SENDER_TEXT: {fileID: 0}
+  SUBJECT_TEXT: {fileID: 0}
+  DATE_TEXT: {fileID: 0}
+  BODY_TEXT: {fileID: 0}
+  BODY_IMAGE: {fileID: 0}
   SENDER: 
   SUBJECT: 
   DATE: 
@@ -5304,73 +5246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LOAD_EVENT:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114720560582149876}
-        m_MethodName: SetGameStateManager
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1490102727761944}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1475389463225488}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1277543090441256}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1674520523042330}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1028520470092830}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114921081146574562

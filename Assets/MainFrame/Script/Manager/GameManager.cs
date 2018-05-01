@@ -9,6 +9,9 @@ namespace Overture.FrameGame
 	{
 		//The week we are on
 		public int WEEK = 0, ProgressCounter = 0;
+		//The selected email
+		EmailController SELECTED_EMAIL;
+		
 		
 		//State of email site. Either viewing all emails or the body of an email
 		public enum EmailSiteState
@@ -75,8 +78,8 @@ namespace Overture.FrameGame
 								ALL_EMAIL_SCREEN.SetActive(true);
 							}
 
-							//Update the list
-							ALL_EMAIL_SCREEN.GetComponent<AllEmailScreenManager>().UpdateList(ACTION_LIST);
+							//Update the list, refresh more mails
+							//ALL_EMAIL_SCREEN.GetComponent<AllEmailScreenManager>().UpdateList(ACTION_LIST);
 							break;
 						case EmailSiteState.OneEmail:
 							ONE_EMAIL_SCREEN.GetComponent<OneEmailScreenManager>().SetEmail(SELECTED_EMAIL);
@@ -109,5 +112,22 @@ namespace Overture.FrameGame
 					break;
 			}
 		}
+		
+		//Function that displays the given email
+		public void DisplayEmail(EmailController EMAIL)
+		{
+			//Keep track of which email we want to show
+			SELECTED_EMAIL = EMAIL;
+
+			//Set the state to just one email
+			SetCurrentState(EmailSiteState.OneEmail);
+		}
+		
+		//Function that sets the state of the email
+		public void SetCurrentState(EmailSiteState TEMP)
+		{
+			STATE = TEMP;
+		}
+
 	}
 }
