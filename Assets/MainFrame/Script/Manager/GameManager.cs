@@ -7,6 +7,8 @@ namespace Overture.FrameGame
 {
 	public class GameManager : MonoBehaviour
 	{
+		//The week we are on
+		public int WEEK = 0,ProgressCounter=0;
 		
 		//Function to restart the game
 		public void Restart()
@@ -32,6 +34,27 @@ namespace Overture.FrameGame
 			{
 				Restart();
 			}
+			//Handle each game state
+			switch (GAME_STATE)
+			{
+				case GameStateManager.GameState.Init:
+					//Increment our week number
+					WEEK++;
+					ProgressCounter++;
+
+					GameStateManager.SetCurrentState(GameStateManager.GameState.MailList);
+					
+					break;
+				case GameStateManager.GameState.MailList:
+					break;
+				case GameStateManager.GameState.MailReading:
+					break;
+				case GameStateManager.GameState.Gaming:
+					break;
+				case GameStateManager.GameState.Restarting:
+					break;
+				default: 
+					break;
 		}
 	}
 }
