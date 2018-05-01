@@ -8,22 +8,35 @@ namespace Overture.FrameGame
 	public class GameManager : MonoBehaviour
 	{
 		//The week we are on
-		public int WEEK = 0,ProgressCounter=0;
+		public int WEEK = 0, ProgressCounter = 0;
 		
+		//State of email site. Either viewing all emails or the body of an email
+		public enum EmailSiteState
+		{
+			AllEmails,
+			OneEmail
+		};
+
+		public GameObject ALL_EMAIL_SCREEN,
+			ONE_EMAIL_SCREEN,
+			END_GAMESCREEN;
+
+		public EmailSiteState STATE = EmailSiteState.AllEmails;
+
 		//Function to restart the game
 		public void Restart()
 		{
 			SetGameStateManager(0);
 			SceneManager.LoadScene("A1");
 		}
-		
+
 		//Set the game state manager
 		public void SetGameStateManager(int i)
 		{
 			//Set the state to the given state
 			GameStateManager.SetCurrentState((GameStateManager.GameState) i);
 		}
-		
+
 		private void Update()
 		{
 			//Get the game state
@@ -34,6 +47,7 @@ namespace Overture.FrameGame
 			{
 				Restart();
 			}
+
 			//Handle each game state
 			switch (GAME_STATE)
 			{
@@ -42,19 +56,58 @@ namespace Overture.FrameGame
 					WEEK++;
 					ProgressCounter++;
 
-					GameStateManager.SetCurrentState(GameStateManager.GameState.MailList);
-					
-					break;
-				case GameStateManager.GameState.MailList:
+					GameStateManager.SetCurrentState(GameStateManager.GameState.MailReading);
+
 					break;
 				case GameStateManager.GameState.MailReading:
+					
+					//Handle the state of player input
+					switch (STATE)
+					{
+						case EmailSiteState.AllEmails:
+							//If this isn't on, turn it on.
+							if (!ALL_EMAIL_SCREEN.activeSelf)
+							{
+								//DAY_BEGIN_SCREEN.SetActive(false);
+								//PROCESS_SCREEN.SetActive(false);
+								ONE_EMAIL_SCREEN.SetActive(false);
+								//BM.ApplyColors(BackgroundManager.BackgroundStates.Inbox);
+								ALL_EMAIL_SCREEN.SetActive(true);
+							}
+
+							//Update the list
+							ALL_EMAIL_SCREEN.GetComponent<AllEmailScreenManager>().UpdateList(ACTION_LIST);
+							break;
+						case EmailSiteState.OneEmail:
+							ONE_EMAIL_SCREEN.GetComponent<OneEmailScreenManager>().SetEmail(SELECTED_EMAIL);
+							//If this isn't on, turn it on, and turn the other one off.
+							if (!ONE_EMAIL_SCREEN.activeSelf)
+							{
+								//DAY_BEGIN_SCREEN.SetActive(false);
+								//PROCESS_SCREEN.SetActive(false);
+								ALL_EMAIL_SCREEN.SetActive(false);
+								//BM.ApplyColors(BackgroundManager.BackgroundStates.Email);
+								ONE_EMAIL_SCREEN.SetActive(true);
+							}
+
+							break;
+						default:
+							Debug.Log("Error, shouldn't happen. Email site state is invalid.");
+							break;
+					}
+
+					break;
+					
 					break;
 				case GameStateManager.GameState.Gaming:
 					break;
+				case GameStateManager.GameState.GameEndingScreen:
+					break;
 				case GameStateManager.GameState.Restarting:
 					break;
-				default: 
+				default:
 					break;
+			}
 		}
 	}
 }

@@ -11,10 +11,10 @@ namespace Overture.FrameGame
 		//Enum for our game states
 		public enum GameState
 		{
-			MailReading,
 			Init,
-			MailList,
+			MailReading,
 			Gaming,
+			GameEndingScreen,
 			Restarting
 		};
 
