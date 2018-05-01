@@ -29,8 +29,9 @@ namespace Overture.FrameGame
 			DATE_TEXT.text = " Date: " + DATE;
 		}
 
+		
 		//Setter function for the email
-		public void SetEmail(EmailController EMAIL)
+		public void SetEmail(EmailContent EMAIL)
 		{
 			SENDER = EMAIL.SENDER;
 			SUBJECT = EMAIL.SUBJECT;

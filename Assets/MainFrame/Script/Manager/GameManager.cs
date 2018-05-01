@@ -8,9 +8,8 @@ namespace Overture.FrameGame
 	public class GameManager : MonoBehaviour
 	{
 		//The week we are on
-		public int WEEK = 0, ProgressCounter = 0;
+		public int Stage = 0, ProgressNum= 0;
 		//The selected email
-		EmailController SELECTED_EMAIL;
 		
 		
 		//State of email site. Either viewing all emails or the body of an email
@@ -24,7 +23,6 @@ namespace Overture.FrameGame
 			ONE_EMAIL_SCREEN,
 			END_GAMESCREEN;
 
-		public EmailSiteState EmailReadingState = EmailSiteState.AllEmails;
 
 		//Function to restart the game
 		public void Restart()
@@ -56,48 +54,13 @@ namespace Overture.FrameGame
 			{
 				case GameStateManager.GameState.Init:
 					//Increment our week number
-					WEEK++;
-					ProgressCounter++;
+					Stage++;
+					ProgressNum++;
 
 					GameStateManager.SetCurrentState(GameStateManager.GameState.MailReading);
 
 					break;
 				case GameStateManager.GameState.MailReading:
-					
-					//Handle the state of player input
-					switch (EmailReadingState)
-					{
-						case EmailSiteState.AllEmails:
-							//If this isn't on, turn it on.
-							if (!ALL_EMAIL_SCREEN.activeSelf)
-							{
-								//DAY_BEGIN_SCREEN.SetActive(false);
-								//PROCESS_SCREEN.SetActive(false);
-								ONE_EMAIL_SCREEN.SetActive(false);
-								//BM.ApplyColors(BackgroundManager.BackgroundStates.Inbox);
-								ALL_EMAIL_SCREEN.SetActive(true);
-							}
-
-							//Update the list, refresh more mails
-							ALL_EMAIL_SCREEN.GetComponent<AllEmailScreenManager>().UpdateList();
-							break;
-						case EmailSiteState.OneEmail:
-							ONE_EMAIL_SCREEN.GetComponent<OneEmailScreenManager>().SetEmail(SELECTED_EMAIL);
-							//If this isn't on, turn it on, and turn the other one off.
-							if (!ONE_EMAIL_SCREEN.activeSelf)
-							{
-								//DAY_BEGIN_SCREEN.SetActive(false);
-								//PROCESS_SCREEN.SetActive(false);
-								ALL_EMAIL_SCREEN.SetActive(false);
-								//BM.ApplyColors(BackgroundManager.BackgroundStates.Email);
-								ONE_EMAIL_SCREEN.SetActive(true);
-							}
-
-							break;
-						default:
-							Debug.Log("Error, shouldn't happen. Email site state is invalid.");
-							break;
-					}
 					break;
 				case GameStateManager.GameState.Gaming:
 					break;
@@ -110,21 +73,8 @@ namespace Overture.FrameGame
 			}
 		}
 		
-		//Function that displays the given email
-		public void DisplayEmail(EmailController EMAIL)
-		{
-			//Keep track of which email we want to show
-			SELECTED_EMAIL = EMAIL;
-
-			//Set the state to just one email
-			SetCurrentState(EmailSiteState.OneEmail);
-		}
 		
-		//Function that sets the state of the email
-		public void SetCurrentState(EmailSiteState TEMP)
-		{
-			EmailReadingState = TEMP;
-		}
+
 
 	}
 }
