@@ -34,7 +34,7 @@ namespace Overture.FrameGame
 		public void SetEmail(EmailContent EMAIL)
 		{
 			SENDER = EMAIL.SENDER;
-			SUBJECT = EMAIL.SUBJECT;
+			SUBJECT = EMAIL.TITLE;
 			if (EMAIL.BODY_IMG != null)
 			{
 				BODY_IMAGE.sprite = EMAIL.BODY_IMG;

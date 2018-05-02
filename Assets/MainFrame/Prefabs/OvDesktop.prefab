@@ -2856,6 +2856,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_config: {fileID: 11400000, guid: ec237238837455a4abcbb2d42d1426d8, type: 2}
+  m_mailconfig: {fileID: 11400000, guid: 6e1536483b764824b99372395d445919, type: 2}
+  stateInited: 0
   Stage: 0
   ProgressNum: 0
   ALL_EMAIL_SCREEN: {fileID: 1415590418418362}
@@ -6325,7 +6327,7 @@ RectTransform:
   m_Children:
   - {fileID: 224160415032526490}
   m_Father: {fileID: 224448246391633378}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6634,7 +6636,7 @@ RectTransform:
   - {fileID: 224475086063955398}
   - {fileID: 224839648912582910}
   m_Father: {fileID: 224448246391633378}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6897,7 +6899,7 @@ RectTransform:
   - {fileID: 224531958592889566}
   - {fileID: 224037975835894050}
   m_Father: {fileID: 224448246391633378}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7125,10 +7127,10 @@ RectTransform:
   - {fileID: 224781651695705542}
   - {fileID: 224748851573495146}
   - {fileID: 224139083330345928}
-  - {fileID: 224205210002622204}
   - {fileID: 224038102257094948}
-  - {fileID: 224340569074583936}
+  - {fileID: 224205210002622204}
   - {fileID: 224820975051838260}
+  - {fileID: 224340569074583936}
   - {fileID: 224388786786914444}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -7747,7 +7749,7 @@ RectTransform:
   - {fileID: 224836628334928168}
   - {fileID: 224446962182814448}
   m_Father: {fileID: 224448246391633378}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

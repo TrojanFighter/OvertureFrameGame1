@@ -9,7 +9,7 @@ public class GlobalDefine  {
 
 public class EmailContent
 {
-    public string SENDER, SUBJECT, DATE, BODY_TEXT;
+    public string TITLE,SENDER, DATE, BODY_TEXT;
     public Sprite BODY_IMG;
 }
 

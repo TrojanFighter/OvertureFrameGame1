@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 namespace Overture.FrameGame
 {
+	
 	public class GameManager : MonoBehaviour
 	{
 		public StageConfig m_config;
@@ -12,14 +13,20 @@ namespace Overture.FrameGame
 		public EmailConfig m_mailconfig;
 
 		public bool stateInited=false;
-		//The week we are on
-		public int Stage = 0, ProgressNum= 0;
-		//The selected email
-		
-		public GameObject ALL_EMAIL_SCREEN,
-			ONE_EMAIL_SCREEN,
-			END_GAMESCREEN;
-		
+		public int EmailProgressNum= 0;
+
+		public EmailCluster m_EmailCluster;
+
+		public bool canProceedToWork = false;
+
+
+		public GameObject m_ProceedToWorkButton;
+
+		void Awake()
+		{
+			DontDestroyOnLoad(this);
+		}
+
 		void Start()
 		{
 			LoadResources();
@@ -63,8 +70,7 @@ namespace Overture.FrameGame
 			{
 				case GameStateManager.GameState.Init:
 					//Increment our week number
-					Stage++;
-					ProgressNum++;
+					EmailProgressNum = 1;
 
 					GameStateManager.SetCurrentState(GameStateManager.GameState.MailReading);
 
@@ -72,14 +78,18 @@ namespace Overture.FrameGame
 				case GameStateManager.GameState.MailReading:
 					if (!stateInited)
 					{
+						EnableProceedToWork(false);
 						ShowCurrentMail();
 						stateInited = true;
 					}
-
 					break;
 				case GameStateManager.GameState.Gaming:
 					break;
 				case GameStateManager.GameState.GameEndingScreen:
+					if (!stateInited)
+					{
+						EmailProgressNum++;
+					}
 					break;
 				case GameStateManager.GameState.Restarting:
 					break;
@@ -91,10 +101,23 @@ namespace Overture.FrameGame
 		void ShowCurrentMail()
 		{
 			//GameObject mailCluster= Resources.Load<GameObject>()
-			Debug.Log(m_mailconfig._Titles[ProgressNum]+" "+ m_mailconfig._SenderName+""+m_mailconfig._EmailBody[ProgressNum]);
+			Debug.Log(m_mailconfig._Titles[EmailProgressNum]+" "+ m_mailconfig._SenderName+""+m_mailconfig._EmailBody[EmailProgressNum]);
+			
+			EmailContent emailContent=new EmailContent();
+			emailContent.TITLE = m_mailconfig._Titles[EmailProgressNum];
+			emailContent.SENDER = m_mailconfig._SenderName[EmailProgressNum];
+			emailContent.BODY_TEXT = m_mailconfig._EmailBody[EmailProgressNum];
+			
+			m_EmailCluster.FillInEmail(emailContent);
 		}
 
-
+		public void EnableProceedToWork(bool enable)
+		{
+			if (enable)
+			{
+				m_ProceedToWorkButton.SetActive(enable);
+			}
+		}
 
 
 	}
