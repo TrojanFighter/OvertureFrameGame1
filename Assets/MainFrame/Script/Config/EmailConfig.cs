@@ -10,6 +10,11 @@ public class EmailConfig : ScriptableObject {
 	{
 		get { return _emailtitles; }
 	}
+	[SerializeField] private List<string> _senderName;
+	public List<string> _SenderName
+	{
+		get { return _senderName; }
+	}
 
 	[SerializeField] private List<string> _emailBody;
 	public List<string> _EmailBody

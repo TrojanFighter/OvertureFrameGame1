@@ -7,28 +7,36 @@ namespace Overture.FrameGame
 {
 	public class GameManager : MonoBehaviour
 	{
+		public StageConfig m_config;
+
+		public EmailConfig m_mailconfig;
+
+		public bool stateInited=false;
 		//The week we are on
 		public int Stage = 0, ProgressNum= 0;
 		//The selected email
 		
-		
-		//State of email site. Either viewing all emails or the body of an email
-		public enum EmailSiteState
-		{
-			AllEmails,
-			OneEmail
-		};
-
 		public GameObject ALL_EMAIL_SCREEN,
 			ONE_EMAIL_SCREEN,
 			END_GAMESCREEN;
+		
+		void Start()
+		{
+			LoadResources();
+		}
+
+		void LoadResources()
+		{
+			if(m_config==null)m_config = Resources.Load<StageConfig>("Configs/StageConfig");
+			if(m_mailconfig==null)m_mailconfig= Resources.Load<EmailConfig>("Configs/EmailConfig");
+		}
 
 
 		//Function to restart the game
 		public void Restart()
 		{
 			SetGameStateManager(0);
-			SceneManager.LoadScene("A1");
+			SceneManager.LoadScene("MainFrame");
 		}
 
 		//Set the game state manager
@@ -36,6 +44,7 @@ namespace Overture.FrameGame
 		{
 			//Set the state to the given state
 			GameStateManager.SetCurrentState((GameStateManager.GameState) i);
+			stateInited = false;
 		}
 
 		private void Update()
@@ -61,6 +70,12 @@ namespace Overture.FrameGame
 
 					break;
 				case GameStateManager.GameState.MailReading:
+					if (!stateInited)
+					{
+						ShowCurrentMail();
+						stateInited = true;
+					}
+
 					break;
 				case GameStateManager.GameState.Gaming:
 					break;
@@ -72,8 +87,14 @@ namespace Overture.FrameGame
 					break;
 			}
 		}
-		
-		
+
+		void ShowCurrentMail()
+		{
+			//GameObject mailCluster= Resources.Load<GameObject>()
+			Debug.Log(m_mailconfig._Titles[ProgressNum]+" "+ m_mailconfig._SenderName+""+m_mailconfig._EmailBody[ProgressNum]);
+		}
+
+
 
 
 	}

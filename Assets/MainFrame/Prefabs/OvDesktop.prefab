@@ -1261,23 +1261,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1653729684235206
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4360626589692994}
-  - component: {fileID: 114720560582149876}
-  - component: {fileID: 114628495665256742}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1657697266210084
 GameObject:
   m_ObjectHideFlags: 1
@@ -1700,6 +1683,7 @@ GameObject:
   - component: {fileID: 223439256335995448}
   - component: {fileID: 114372575293704768}
   - component: {fileID: 114863859681131986}
+  - component: {fileID: 114285178094566034}
   m_Layer: 5
   m_Name: OvDesktop
   m_TagString: Untagged
@@ -1741,19 +1725,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4360626589692994
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1653729684235206}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -815.1255, y: -454.25, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 224448246391633378}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &95764677964330932
 Animator:
   serializedVersion: 3
@@ -2195,7 +2166,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114720560582149876}
+      - m_Target: {fileID: 0}
         m_MethodName: SetGameStateManager
         m_Mode: 3
         m_Arguments:
@@ -2206,7 +2177,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 114720560582149876}
+      - m_Target: {fileID: 0}
         m_MethodName: EvaluateEmails
         m_Mode: 1
         m_Arguments:
@@ -2228,7 +2199,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 114720560582149876}
+      - m_Target: {fileID: 0}
         m_MethodName: resetScroll
         m_Mode: 1
         m_Arguments:
@@ -2873,6 +2844,23 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!114 &114285178094566034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1990523774574706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e50b515c08ed2cb44b4cdf5b1319e161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_config: {fileID: 11400000, guid: ec237238837455a4abcbb2d42d1426d8, type: 2}
+  Stage: 0
+  ProgressNum: 0
+  ALL_EMAIL_SCREEN: {fileID: 1415590418418362}
+  ONE_EMAIL_SCREEN: {fileID: 1031279415717324}
+  END_GAMESCREEN: {fileID: 1512698714716254}
 --- !u!114 &114296423893261436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3635,7 +3623,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114720560582149876}
+      - m_Target: {fileID: 0}
         m_MethodName: SetCurrentState
         m_Mode: 3
         m_Arguments:
@@ -3810,7 +3798,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114720560582149876}
+      - m_Target: {fileID: 0}
         m_MethodName: AcceptEmail
         m_Mode: 1
         m_Arguments:
@@ -3821,7 +3809,7 @@ MonoBehaviour:
           m_StringArgument: asdasdsad
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 114720560582149876}
+      - m_Target: {fileID: 0}
         m_MethodName: SetCurrentState
         m_Mode: 3
         m_Arguments:
@@ -4319,22 +4307,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114628495665256742
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1653729684235206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e50b515c08ed2cb44b4cdf5b1319e161, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Stage: 0
-  ProgressNum: 0
-  ALL_EMAIL_SCREEN: {fileID: 1415590418418362}
-  ONE_EMAIL_SCREEN: {fileID: 1031279415717324}
-  END_GAMESCREEN: {fileID: 1512698714716254}
 --- !u!114 &114640596311583928
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4526,7 +4498,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114720560582149876}
+      - m_Target: {fileID: 0}
         m_MethodName: Restart
         m_Mode: 1
         m_Arguments:
@@ -4648,37 +4620,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114720560582149876
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1653729684235206}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53119675eae91e244884db21ed8b179a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EMAIL_LIST: []
-  ACTION_LIST: 
-  WEEK_ONE_LIST: []
-  WEEK_TWO_LIST: []
-  WEEK_THREE_LIST: []
-  WEEK_FOUR_LIST: []
-  WEEK: 0
-  STATE: 0
-  HAPPINESS: 0
-  STORY_ENDING: 000000
-  ALL_EMAIL_SCREEN: {fileID: 0}
-  ONE_EMAIL_SCREEN: {fileID: 0}
-  DAY_BEGIN_SCREEN: {fileID: 0}
-  PROCESS_SCREEN: {fileID: 0}
-  STATUS_BAR: {fileID: 0}
-  END_SCREEN: {fileID: 0}
-  DESKTOP: {fileID: 0}
-  PLAYER_NAME: my dude
-  BM: {fileID: 0}
-  ToolTip: {fileID: 0}
 --- !u!114 &114736745491836736
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4979,7 +4920,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114720560582149876}
+      - m_Target: {fileID: 0}
         m_MethodName: AcceptAndMarkImportantEmail
         m_Mode: 1
         m_Arguments:
@@ -4990,7 +4931,7 @@ MonoBehaviour:
           m_StringArgument: asdasdsad
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 114720560582149876}
+      - m_Target: {fileID: 0}
         m_MethodName: SetCurrentState
         m_Mode: 3
         m_Arguments:
@@ -5579,7 +5520,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114720560582149876}
+      - m_Target: {fileID: 0}
         m_MethodName: RejectEmail
         m_Mode: 1
         m_Arguments:
@@ -5590,7 +5531,7 @@ MonoBehaviour:
           m_StringArgument: asdasdsad
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 114720560582149876}
+      - m_Target: {fileID: 0}
         m_MethodName: SetCurrentState
         m_Mode: 3
         m_Arguments:
@@ -6384,7 +6325,7 @@ RectTransform:
   m_Children:
   - {fileID: 224160415032526490}
   m_Father: {fileID: 224448246391633378}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6480,7 +6421,7 @@ RectTransform:
   - {fileID: 224787752562196126}
   - {fileID: 224924134983118612}
   m_Father: {fileID: 224448246391633378}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -7181,15 +7122,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 4360626589692994}
   - {fileID: 224781651695705542}
   - {fileID: 224748851573495146}
-  - {fileID: 224205210002622204}
   - {fileID: 224139083330345928}
-  - {fileID: 224340569074583936}
+  - {fileID: 224205210002622204}
   - {fileID: 224038102257094948}
-  - {fileID: 224388786786914444}
+  - {fileID: 224340569074583936}
   - {fileID: 224820975051838260}
+  - {fileID: 224388786786914444}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7693,7 +7633,7 @@ RectTransform:
   m_LocalScale: {x: 1.1599951, y: 1.1599948, z: 1.1599948}
   m_Children: []
   m_Father: {fileID: 224448246391633378}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7729,7 +7669,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224448246391633378}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7807,7 +7747,7 @@ RectTransform:
   - {fileID: 224836628334928168}
   - {fileID: 224446962182814448}
   m_Father: {fileID: 224448246391633378}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
