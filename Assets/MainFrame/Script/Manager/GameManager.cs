@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -15,12 +16,12 @@ namespace Overture.FrameGame
 		public bool stateInited=false;
 		public int EmailProgressNum= 0;
 
-		public EmailCluster m_EmailCluster;
+		public EmailManager MEmailManager;
 
 		public bool canProceedToWork = false;
 
 
-		public GameObject m_ProceedToWorkButton;
+		public GameObject m_ProceedToWorkButton, m_OnAirAlert;
 
 		void Awake()
 		{
@@ -98,17 +99,39 @@ namespace Overture.FrameGame
 			}
 		}
 
+		void CheckEnding()
+		{
+			Debug.LogError("Email ID Out of Range!");
+		}
+
 		void ShowCurrentMail()
 		{
-			//GameObject mailCluster= Resources.Load<GameObject>()
-			Debug.Log(m_mailconfig._Titles[EmailProgressNum]+" "+ m_mailconfig._SenderName+""+m_mailconfig._EmailBody[EmailProgressNum]);
-			
-			EmailContent emailContent=new EmailContent();
-			emailContent.TITLE = m_mailconfig._Titles[EmailProgressNum];
-			emailContent.SENDER = m_mailconfig._SenderName[EmailProgressNum];
-			emailContent.BODY_TEXT = m_mailconfig._EmailBody[EmailProgressNum];
-			
-			m_EmailCluster.FillInEmail(emailContent);
+			if (EmailProgressNum > m_config._LevelEmailID.Count)
+			{
+				CheckEnding();
+			}
+
+			Debug.Log("Showing Mail ID: "+m_config._LevelEmailID[EmailProgressNum]);
+			string emailIDstring = m_config._LevelEmailID[EmailProgressNum];
+			string[] emailID = emailIDstring.Split(',');
+
+			if (emailID.Length <= 0)
+			{
+				Debug.LogError("Email ID Parse Error!");
+			}
+
+			for (int i = 0; i < emailID.Length; i++)
+			{
+				
+				Debug.Log(m_mailconfig._Titles[int.Parse(emailID[i])]+" "+ m_mailconfig._SenderName[int.Parse(emailID[i])]+""+m_mailconfig._EmailBody[int.Parse(emailID[i])]);
+				EmailContent emailContent=new EmailContent();
+				emailContent.TITLE = m_mailconfig._Titles[int.Parse(emailID[i])];
+				emailContent.SENDER = m_mailconfig._SenderName[int.Parse(emailID[i])];
+				emailContent.BODY_TEXT = m_mailconfig._EmailBody[int.Parse(emailID[i])];
+							
+				MEmailManager.FillInEmail(emailContent);
+			}
+
 		}
 
 		public void EnableProceedToWork(bool enable)
@@ -117,6 +140,17 @@ namespace Overture.FrameGame
 			{
 				m_ProceedToWorkButton.SetActive(enable);
 			}
+		}
+
+		public void On_ClickGoToWork()
+		{
+			SetGameStateManager((int)GameStateManager.GameState.Gaming);
+			SceneManager.LoadScene(m_config._LevelScene[EmailProgressNum]);
+		}
+
+		public void ShowOnAirAlert(bool show)
+		{
+			m_OnAirAlert.SetActive(show);
 		}
 
 

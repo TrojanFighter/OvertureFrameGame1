@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Overture.FrameGame
 {
-	public class EmailCluster : MonoBehaviour
+	public class EmailManager : MonoBehaviour
 	{
 
 		public EmailWindow emailPrefab;
