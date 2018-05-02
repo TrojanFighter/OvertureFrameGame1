@@ -16,7 +16,7 @@ namespace Overture.FrameGame
 		public bool stateInited=false;
 		public int EmailProgressNum= 0;
 
-		public EmailManager MEmailManager;
+		public EmailManager m_EmailManager;
 
 		public bool canProceedToWork = false;
 
@@ -41,11 +41,11 @@ namespace Overture.FrameGame
 
 
 		//Function to restart the game
-		public void Restart()
+		/*public void Restart()
 		{
 			SetGameStateManager(0);
 			SceneManager.LoadScene("MainFrame");
-		}
+		}*/
 
 		//Set the game state manager
 		public void SetGameStateManager(int i)
@@ -63,15 +63,15 @@ namespace Overture.FrameGame
 			//Always be able to reset
 			if (Input.GetKeyDown(KeyCode.R))
 			{
-				Restart();
+				//Restart();
 			}
 
 			//Handle each game state
 			switch (GAME_STATE)
 			{
-				case GameStateManager.GameState.Init:
+				case GameStateManager.GameState.Reset:
 					//Increment our week number
-					EmailProgressNum = 1;
+					EmailProgressNum = 0;
 
 					GameStateManager.SetCurrentState(GameStateManager.GameState.MailReading);
 
@@ -83,8 +83,18 @@ namespace Overture.FrameGame
 						ShowCurrentMail();
 						stateInited = true;
 					}
+
+					if (m_EmailManager.isEmailClosed)
+					{
+						EnableProceedToWork(true);
+					}
+
 					break;
 				case GameStateManager.GameState.Gaming:
+					if (!stateInited)
+					{
+						stateInited = true;
+					}
 					break;
 				case GameStateManager.GameState.GameEndingScreen:
 					if (!stateInited)
@@ -129,7 +139,7 @@ namespace Overture.FrameGame
 				emailContent.SENDER = m_mailconfig._SenderName[int.Parse(emailID[i])];
 				emailContent.BODY_TEXT = m_mailconfig._EmailBody[int.Parse(emailID[i])];
 							
-				MEmailManager.FillInEmail(emailContent);
+				m_EmailManager.FillInEmail(emailContent);
 			}
 
 		}
@@ -144,15 +154,38 @@ namespace Overture.FrameGame
 
 		public void On_ClickGoToWork()
 		{
+			ShowOnAirAlert(true);
+			StartCoroutine(GoToWork());
+		}
+
+		IEnumerator GoToWork()
+		{
+			yield return new WaitForSeconds(3f);
 			SetGameStateManager((int)GameStateManager.GameState.Gaming);
 			SceneManager.LoadScene(m_config._LevelScene[EmailProgressNum]);
 		}
 
-		public void ShowOnAirAlert(bool show)
+		void ShowOnAirAlert(bool show)
 		{
 			m_OnAirAlert.SetActive(show);
+			m_OnAirAlert.GetComponent<Animation>().Play();
 		}
 
+		public void SubmitScore(int score1, int score2, int score3)
+		{
+		}
+
+		public void ReturnToDesktop()
+		{
+			SetGameStateManager((int)GameStateManager.GameState.MailReading);
+			SceneManager.LoadScene("MainFrame");
+		}
+
+		public void AbortToDeskTop()
+		{
+			SetGameStateManager((int)GameStateManager.GameState.MailReading);
+			SceneManager.LoadScene("MainFrame");
+		}
 
 	}
 }

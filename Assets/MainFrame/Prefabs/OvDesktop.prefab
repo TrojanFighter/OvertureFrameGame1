@@ -72,13 +72,14 @@ GameObject:
   - component: {fileID: 224563607308558402}
   - component: {fileID: 222608923174605236}
   - component: {fileID: 114201353216841460}
+  - component: {fileID: 95477693006824230}
   m_Layer: 5
   m_Name: OnAirAlert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1429805773030542
 GameObject:
   m_ObjectHideFlags: 1
@@ -242,6 +243,23 @@ Transform:
   m_Father: {fileID: 224448246391633378}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &95477693006824230
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1340310005924562}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cb8820d58d360cd44a8272ac8b73b4a2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114035769092058804
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -344,7 +362,7 @@ MonoBehaviour:
   m_mailconfig: {fileID: 11400000, guid: 6e1536483b764824b99372395d445919, type: 2}
   stateInited: 0
   EmailProgressNum: 0
-  MEmailManager: {fileID: 114443291471288498}
+  m_EmailManager: {fileID: 0}
   canProceedToWork: 0
   m_ProceedToWorkButton: {fileID: 1499568997564002}
   m_OnAirAlert: {fileID: 1340310005924562}
@@ -386,7 +404,7 @@ MonoBehaviour:
   - {fileID: 224913685235778988}
   - {fileID: 224373716491584560}
   - {fileID: 224262697438515816}
-  m_currentEmailWindow: []
+  m_currentEmailWindows: []
 --- !u!114 &114498462464372272
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -607,12 +625,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1990523774574706}
-        m_MethodName: 
+      - m_Target: {fileID: 114285178094566034}
+        m_MethodName: On_ClickGoToWork
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

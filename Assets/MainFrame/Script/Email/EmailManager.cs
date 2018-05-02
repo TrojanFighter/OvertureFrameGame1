@@ -11,12 +11,12 @@ namespace Overture.FrameGame
 
 		public Transform[] emailSlots;
 
-		public List<EmailWindow> m_currentEmailWindow;
+		public List<EmailWindow> m_currentEmailWindows;
 
 		private bool inited = false;
 
 		public bool isEmailClosed {
-			get { return m_currentEmailWindow.Count <= 0; }
+			get { return m_currentEmailWindows.Count <= 0; }
 		}
 
 		public void Init()
@@ -25,23 +25,46 @@ namespace Overture.FrameGame
 			{
 				return;
 			}
-			m_currentEmailWindow=new List<EmailWindow>();
+			m_currentEmailWindows=new List<EmailWindow>();
 		}
 
 		public void UnInit()
 		{
-			foreach (EmailWindow email in m_currentEmailWindow)
+			foreach (EmailWindow email in m_currentEmailWindows)
 			{
-				email.OnClick_Close();
+				UnRegisterEmail(email);
 			}
 		}
 
 		public void FillInEmail(EmailContent emailContent)
 		{
-			EmailWindow emailWindow = Instantiate(emailPrefab, emailSlots[m_currentEmailWindow.Count]);
+			EmailWindow emailWindow = Instantiate(emailPrefab, emailSlots[m_currentEmailWindows.Count]);
 			emailWindow.transform.localPosition=Vector3.zero;
 			emailWindow.FillInContent(emailContent);
-			m_currentEmailWindow.Add(emailWindow);
+			RegisterEmail(emailWindow);
+		}
+
+		public bool RegisterEmail(EmailWindow email)
+		{
+			if (!m_currentEmailWindows.Contains(email))
+			{
+				m_currentEmailWindows.Add(email);
+				return true;
+			}
+
+			return false;
+		}
+		
+		public bool UnRegisterEmail(EmailWindow email)
+		{
+			if (m_currentEmailWindows.Contains(email))
+			{
+				m_currentEmailWindows.Remove(email);
+				Destroy(email.gameObject);
+				return true;
+			}
+
+			return false;
 		}
 	}
 }

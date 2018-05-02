@@ -15,7 +15,7 @@ namespace Reference
         //The text UI part we load what Lily wants
         public Text MESSAGE;
 
-        //Init function when we turn on this screen
+        //Reset function when we turn on this screen
         public void InitScreen()
         {
             foreach (GameObject OBJ in INIT_OBJECTS)

@@ -7,11 +7,17 @@ namespace Overture.FrameGame
 {
 	public class EmailWindow : MonoBehaviour
 	{
+		public void Init(EmailManager manager)
+		{
+			m_emailManager = manager;
+			m_emailManager.RegisterEmail(this);
+		}
 
+		public EmailManager m_emailManager;
 		public Text m_Title,m_Author,m_EmailBody;
 		public void OnClick_Close()
 		{
-			Destroy(gameObject);
+			m_emailManager.UnRegisterEmail(this);
 		}
 
 		public void FillInContent(EmailContent content)
@@ -20,5 +26,7 @@ namespace Overture.FrameGame
 			m_Author.text = content.SENDER;
 			m_EmailBody.text = content.BODY_TEXT;
 		}
+		
+		
 	}
 }

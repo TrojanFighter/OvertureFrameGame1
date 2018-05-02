@@ -308,7 +308,7 @@ namespace Reference
             return -1;
         }
 
-        //Init function for the action list
+        //Reset function for the action list
         public void InitActionList()
         {
             ACTION_LIST.Clear();
@@ -321,7 +321,7 @@ namespace Reference
             }
         }
 
-        //Init function for the entire game
+        //Reset function for the entire game
         public void InitEmailList()
         {
             HAPPINESS = 0;
@@ -448,7 +448,7 @@ namespace Reference
                     //Load any emails taht start on this week
                     LoadEmails();
 
-                    //Init the actions list, set our day begin screen off, then change states.
+                    //Reset the actions list, set our day begin screen off, then change states.
                     InitActionList();
 
                     //Load in a status and turn it on
