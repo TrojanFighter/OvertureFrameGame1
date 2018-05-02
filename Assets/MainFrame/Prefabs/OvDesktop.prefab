@@ -362,7 +362,7 @@ MonoBehaviour:
   m_mailconfig: {fileID: 11400000, guid: 6e1536483b764824b99372395d445919, type: 2}
   stateInited: 0
   EmailProgressNum: 0
-  m_EmailManager: {fileID: 0}
+  m_EmailManager: {fileID: 114443291471288498}
   canProceedToWork: 0
   m_ProceedToWorkButton: {fileID: 1499568997564002}
   m_OnAirAlert: {fileID: 1340310005924562}
