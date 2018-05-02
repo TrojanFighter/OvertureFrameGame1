@@ -100,6 +100,7 @@ namespace Overture.FrameGame
 					if (!stateInited)
 					{
 						EmailProgressNum++;
+						stateInited = true;
 					}
 					break;
 				case GameStateManager.GameState.Restarting:

@@ -11,12 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d4e776b738b42649ab886e0741f2ea2, type: 3}
   m_Name: StageConfig
   m_EditorClassIdentifier: 
-  _levelProgressCondition: 010000000200000003000000
-  _levelMessage:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  _levelName:
-  - 
-  - 
-  - 
+  _levelEmailID:
+  - 1,2,3
+  - 4,5,6
+  _levelScene:
+  - a1
+  - a2

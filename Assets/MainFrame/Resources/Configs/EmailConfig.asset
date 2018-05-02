@@ -14,9 +14,28 @@ MonoBehaviour:
   _emailtitles:
   - aaa
   - bbb
+  - ccc
+  - ddd
+  - eee
+  - fff
+  _senderName:
+  - af
+  - asdf
+  - fasdf
+  - fdsaf
+  - dsfa
+  - afsdf
   _emailBody:
   - ab
-  - ba
+  - vx
+  - sdaf
+  - asvfaf
+  - asfas
+  - dsfa
   _levelName:
   - cc
-  - dd
+  - safsda
+  - sdfasaf
+  - safd
+  - safd
+  - asdf
