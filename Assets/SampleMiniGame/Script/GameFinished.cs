@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using Overture.FrameGame;
 using UnityEngine;
+using Overture.FrameGame;
+
 
 public class GameFinished : MonoBehaviour {
 
@@ -9,6 +11,6 @@ public class GameFinished : MonoBehaviour {
 
     public void OnClick_FinishGame()
     {
-        GameManager.Instance.ReturnToDesktop();
+        Overture.FrameGame.GameManager.Instance.ReturnToDesktop();
     }
 }
