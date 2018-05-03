@@ -7,11 +7,13 @@ using UnityEngine.SceneManagement;
 namespace Overture.FrameGame
 {
 	
-	public class GameManager : MonoBehaviour
+	public class GameManager : MonoBehaviourEX<GameManager>
 	{
 		public StageConfig m_config;
 
 		public EmailConfig m_mailconfig;
+
+		public ProgressConfig m_ProgressConfig;
 
 		public bool stateInited=false;
 		public int EmailProgressNum= 0;
@@ -23,9 +25,10 @@ namespace Overture.FrameGame
 
 		public GameObject m_ProceedToWorkButton, m_OnAirAlert;
 
-		void Awake()
+		public override void Awake()
 		{
-			DontDestroyOnLoad(this);
+			base.Awake();
+			//DontDestroyOnLoad(this);
 		}
 
 		void Start()
@@ -37,6 +40,7 @@ namespace Overture.FrameGame
 		{
 			if(m_config==null)m_config = Resources.Load<StageConfig>("Configs/StageConfig");
 			if(m_mailconfig==null)m_mailconfig= Resources.Load<EmailConfig>("Configs/EmailConfig");
+			if(m_ProgressConfig==null)m_ProgressConfig= Resources.Load<ProgressConfig>("Configs/ProgressConfig");
 		}
 
 
@@ -61,7 +65,7 @@ namespace Overture.FrameGame
 			GameStateManager.GameState GAME_STATE = GameStateManager.STATE;
 
 			//Always be able to reset
-			if (Input.GetKeyDown(KeyCode.R))
+			//if (Input.GetKeyDown(KeyCode.R))
 			{
 				//Restart();
 			}
@@ -72,6 +76,7 @@ namespace Overture.FrameGame
 				case GameStateManager.GameState.Reset:
 					//Increment our week number
 					EmailProgressNum = 0;
+					m_ProgressConfig.m_CurrentProgress = EmailProgressNum;
 
 					GameStateManager.SetCurrentState(GameStateManager.GameState.MailReading);
 
@@ -79,6 +84,7 @@ namespace Overture.FrameGame
 				case GameStateManager.GameState.MailReading:
 					if (!stateInited)
 					{
+						EmailProgressNum = m_ProgressConfig.m_CurrentProgress;
 						EnableProceedToWork(false);
 						ShowCurrentMail();
 						stateInited = true;
@@ -90,16 +96,19 @@ namespace Overture.FrameGame
 					}
 
 					break;
-				case GameStateManager.GameState.Gaming:
-					if (!stateInited)
-					{
-						stateInited = true;
-					}
-					break;
-				case GameStateManager.GameState.GameEndingScreen:
+				case GameStateManager.GameState.SavingProgress:
 					if (!stateInited)
 					{
 						EmailProgressNum++;
+						m_ProgressConfig.m_CurrentProgress = EmailProgressNum;
+						m_ProgressConfig.SetDirty();
+						stateInited = true;
+					}
+					break;
+				case GameStateManager.GameState.Gaming:
+					if (!stateInited)
+					{
+						//EmailProgressNum++;
 						stateInited = true;
 					}
 					break;
@@ -161,15 +170,17 @@ namespace Overture.FrameGame
 
 		IEnumerator GoToWork()
 		{
+			int lastEmailProgress = EmailProgressNum;
+			SetGameStateManager((int)GameStateManager.GameState.SavingProgress);
 			yield return new WaitForSeconds(3f);
 			SetGameStateManager((int)GameStateManager.GameState.Gaming);
-			SceneManager.LoadScene(m_config._LevelScene[EmailProgressNum]);
+			SceneManager.LoadScene(m_config._LevelScene[lastEmailProgress]);
 		}
 
 		void ShowOnAirAlert(bool show)
 		{
 			m_OnAirAlert.SetActive(show);
-			m_OnAirAlert.GetComponent<Animation>().Play();
+			m_OnAirAlert.GetComponent<Animator>().Play(0);
 		}
 
 		public void SubmitScore(int score1, int score2, int score3)

@@ -13,8 +13,8 @@ namespace Overture.FrameGame
 		{
 			Reset=0,
 			MailReading,
+			SavingProgress,
 			Gaming,
-			GameEndingScreen,
 			Restarting
 		};
 

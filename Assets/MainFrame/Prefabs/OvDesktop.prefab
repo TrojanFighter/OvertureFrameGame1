@@ -180,6 +180,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1639344026756618
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224587613312121588}
+  m_Layer: 5
+  m_Name: EmailSlot (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1689198664839176
 GameObject:
   m_ObjectHideFlags: 1
@@ -189,7 +204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224262697438515816}
   m_Layer: 5
-  m_Name: EmailSlot (2)
+  m_Name: EmailSlot (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -360,6 +375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_config: {fileID: 11400000, guid: ec237238837455a4abcbb2d42d1426d8, type: 2}
   m_mailconfig: {fileID: 11400000, guid: 6e1536483b764824b99372395d445919, type: 2}
+  m_ProgressConfig: {fileID: 11400000, guid: 47c078f02aed8c8409c5951403bde824, type: 2}
   stateInited: 0
   EmailProgressNum: 0
   m_EmailManager: {fileID: 114443291471288498}
@@ -403,6 +419,7 @@ MonoBehaviour:
   emailSlots:
   - {fileID: 224913685235778988}
   - {fileID: 224373716491584560}
+  - {fileID: 224587613312121588}
   - {fileID: 224262697438515816}
   m_currentEmailWindows: []
 --- !u!114 &114498462464372272
@@ -711,11 +728,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224439799791286078}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 556, y: 0}
+  m_AnchoredPosition: {x: 579, y: 109}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224362352188242042
@@ -751,7 +768,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 234, y: 0}
+  m_AnchoredPosition: {x: -385, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224439799791286078
@@ -766,6 +783,7 @@ RectTransform:
   m_Children:
   - {fileID: 224913685235778988}
   - {fileID: 224373716491584560}
+  - {fileID: 224587613312121588}
   - {fileID: 224262697438515816}
   m_Father: {fileID: 224448246391633378}
   m_RootOrder: 3
@@ -816,6 +834,24 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 610, y: 398}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224587613312121588
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1639344026756618}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224439799791286078}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 143, y: -33}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224614279672688436
 RectTransform:
@@ -925,6 +961,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -356, y: 0}
+  m_AnchoredPosition: {x: -645, y: 98.60181}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}

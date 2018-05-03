@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 [CreateAssetMenu (menuName = "StageConfig")]
 [System.Serializable]

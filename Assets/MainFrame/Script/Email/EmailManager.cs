@@ -41,6 +41,7 @@ namespace Overture.FrameGame
 			EmailWindow emailWindow = Instantiate(emailPrefab, emailSlots[m_currentEmailWindows.Count]);
 			emailWindow.transform.localPosition=Vector3.zero;
 			emailWindow.FillInContent(emailContent);
+			emailWindow.Init(this);
 			RegisterEmail(emailWindow);
 		}
 

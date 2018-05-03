@@ -8,3 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainFrame/Scenes/MainFrame.unity
     guid: 27ec158312872cc438bdc5811645babf
+  - enabled: 1
+    path: Assets/SampleMiniGame/Scene/a1.unity
+    guid: 788d8cafaeb64dd44b1bc1d100b2d9fa
+  - enabled: 1
+    path: Assets/SampleMiniGame/Scene/a2.unity
+    guid: c28802bd4de782d4e92121f28e067dc6
