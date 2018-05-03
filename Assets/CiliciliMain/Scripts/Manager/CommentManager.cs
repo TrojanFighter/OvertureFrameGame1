@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Video;
 
@@ -10,6 +11,8 @@ namespace Overture.CommentCensor
 
     public class CommentManager : MonoBehaviourEX<CommentManager>
     {
+        
+        public float TRexScore, StegosaursScore, PterosaursScore;
         public VideoPlayer m_videoPlayer;
         private Dictionary<int, Comment> m_CommentDictionary;
         private Dictionary<int, CommentUIPrefab> m_CommentUIDictionary;
@@ -133,6 +136,33 @@ namespace Overture.CommentCensor
                 //Debug.Log("Removed Comment" + commentID);
                 m_CommentUIDictionary[commentID].SelfDestory();
                 m_CommentUIDictionary.Remove(commentID);
+            }
+        }
+
+        public void ScoredByComment(int commentID,GlobalDefine.ReactionType reactionType)
+        {
+            if (!m_CommentDictionary.ContainsKey(commentID))
+            {
+                return;
+            }
+
+            switch (reactionType)
+            {
+                case GlobalDefine.ReactionType.RateUp:
+                    TRexScore += m_CommentDictionary[commentID].TRexesReactionUp;
+                    StegosaursScore+= m_CommentDictionary[commentID].StegosaursReactionUp;
+                    PterosaursScore += m_CommentDictionary[commentID].PterosaursReactionUp;
+                    break;
+                case GlobalDefine.ReactionType.Remove:
+                    TRexScore += m_CommentDictionary[commentID].TRexesReactionRemove;
+                    StegosaursScore+= m_CommentDictionary[commentID].StegosaursReactionRemove;
+                    PterosaursScore += m_CommentDictionary[commentID].PterosaursReactionRemove;
+                    break;
+                case GlobalDefine.ReactionType.DoNothing:
+                    TRexScore += m_CommentDictionary[commentID].TRexesReactionDoNothing;
+                    StegosaursScore+= m_CommentDictionary[commentID].StegosaursReactionDoNothing;
+                    PterosaursScore += m_CommentDictionary[commentID].PterosaursReactionDoNothing;
+                    break;
             }
         }
     }

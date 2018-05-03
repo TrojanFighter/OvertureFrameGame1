@@ -49,6 +49,7 @@ namespace Overture.CommentCensor
                     upvoteReactionText.gameObject.SetActive(true);
                     m_MuteDialog.SetActive(false);
                     muteReactionText.gameObject.SetActive(false);
+                    CommentManager.Instance.ScoredByComment(m_comment.commentID,GlobalDefine.ReactionType.RateUp);
                     break;
                 case GlobalDefine.CensorAreaTypes.PreMute:
                     m_UpvoteDialog.SetActive(false);
@@ -62,7 +63,16 @@ namespace Overture.CommentCensor
                     upvoteReactionText.gameObject.SetActive(false);
                     m_MuteDialog.SetActive(true);
                     muteReactionText.gameObject.SetActive(true);
+                    CommentManager.Instance.ScoredByComment(m_comment.commentID,GlobalDefine.ReactionType.Remove);
                     CommentManager.Instance.RemoveComment(m_comment.commentID);
+                    break;
+                case GlobalDefine.CensorAreaTypes.DoNothing:
+                    m_UpvoteDialog.SetActive(false);
+                    upvoteReactionText.gameObject.SetActive(false);
+                    m_MuteDialog.SetActive(false);
+                    muteReactionText.gameObject.SetActive(false);
+                    CommentManager.Instance.ScoredByComment(m_comment.commentID,GlobalDefine.ReactionType.DoNothing);
+                    CommentManager.Instance.BlockComment(m_comment.commentID, false);
                     break;
                 case GlobalDefine.CensorAreaTypes.None:
                     m_UpvoteDialog.SetActive(false);

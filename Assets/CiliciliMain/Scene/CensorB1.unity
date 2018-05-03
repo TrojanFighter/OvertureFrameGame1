@@ -601,37 +601,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 114348400104849438, guid: d33ff0576684c774eabd4c8bec93afa8,
-        type: 2}
-      propertyPath: m_TimeLabel
-      value: 
-      objectReference: {fileID: 1911273591}
-    - target: {fileID: 328564297911061780, guid: d33ff0576684c774eabd4c8bec93afa8,
-        type: 2}
-      propertyPath: m_VideoClip
-      value: 
-      objectReference: {fileID: 32900000, guid: 7f7b07dcf0e8f5347933b2a3df4773cc,
-        type: 3}
     - target: {fileID: 114474087007719766, guid: d33ff0576684c774eabd4c8bec93afa8,
         type: 2}
       propertyPath: m_CommentRoot
       value: 
       objectReference: {fileID: 1026979149}
-    - target: {fileID: 328564297911061780, guid: d33ff0576684c774eabd4c8bec93afa8,
+    - target: {fileID: 114348400104849438, guid: d33ff0576684c774eabd4c8bec93afa8,
         type: 2}
-      propertyPath: m_AudioOutputMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 82005622748004476, guid: d33ff0576684c774eabd4c8bec93afa8,
-        type: 2}
-      propertyPath: m_Volume
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 82005622748004476, guid: d33ff0576684c774eabd4c8bec93afa8,
-        type: 2}
-      propertyPath: spreadCustomCurve.m_RotationOrder
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: m_TimeLabel
+      value: 
+      objectReference: {fileID: 1911273591}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d33ff0576684c774eabd4c8bec93afa8, type: 2}
   m_IsPrefabParent: 0

@@ -64,10 +64,16 @@ namespace Overture.CommentCensor
         public enum CensorAreaTypes
         {
             None,
+            DoNothing,
             PreUpvote,
             Upvote,
             PreMute,
             Mute
+        }
+
+        public enum ReactionType
+        {
+            RateUp,DoNothing,Remove
         }
 
         public static class PathDefines
