@@ -20,9 +20,6 @@ namespace Overture.FrameGame
 
 		public EmailManager m_EmailManager;
 
-		public bool canProceedToWork = false;
-
-
 		public GameObject m_ProceedToWorkButton, m_OnAirAlert;
 
 		public override void Awake()
@@ -77,6 +74,11 @@ namespace Overture.FrameGame
 					//Increment our week number
 					EmailProgressNum = 0;
 					m_ProgressConfig.m_CurrentProgress = EmailProgressNum;
+					m_ProgressConfig.FailureCount = 0;
+					m_ProgressConfig.TRexScore = 0;
+					m_ProgressConfig.StegosaursScore = 0;
+					m_ProgressConfig.PterosaursScore = 0;
+						
 
 					GameStateManager.SetCurrentState(GameStateManager.GameState.MailReading);
 
@@ -183,8 +185,12 @@ namespace Overture.FrameGame
 			m_OnAirAlert.GetComponent<Animator>().Play(0);
 		}
 
-		public void SubmitScore(int score1, int score2, int score3)
+		public void SubmitScore(int _TRexScore, int _StegosaursScore, int _PterosaursScore, int _FailureCount)
 		{
+			m_ProgressConfig.TRexScore += _TRexScore;
+			m_ProgressConfig.StegosaursScore += _StegosaursScore;
+			m_ProgressConfig.PterosaursScore += _PterosaursScore;
+			m_ProgressConfig.FailureCount += _FailureCount;
 		}
 
 		public void ReturnToDesktop()

@@ -7,6 +7,25 @@ public class ProgressConfig : ScriptableObject
 {
     public int m_CurrentProgress = 0;
 
-    public int Score1 = 0, Score2 = 0, Score3 = 0;
+    public int TRexScore = 0, StegosaursScore = 0, PterosaursScore = 0;
+
+    public int FailureCount = 0;
+
+    public int FailureTolerance=6;
+
+    public bool bHasFailed
+    {
+        get
+        {
+            if (FailureCount >= FailureTolerance)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    }
 }
 

@@ -62,3 +62,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Capcha/Scenes/CapchaFinal.unity
     guid: e5f20ecb691b44663aafe2b81cf44c60
+  - enabled: 1
+    path: Assets/SampleMiniGame/Scene/a1.unity
+    guid: 788d8cafaeb64dd44b1bc1d100b2d9fa

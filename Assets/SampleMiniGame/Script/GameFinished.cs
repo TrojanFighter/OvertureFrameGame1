@@ -11,6 +11,7 @@ public class GameFinished : MonoBehaviour {
 
     public void OnClick_FinishGame()
     {
+        Overture.FrameGame.GameManager.Instance.SubmitScore(-1,-1,-1,1);
         Overture.FrameGame.GameManager.Instance.ReturnToDesktop();
     }
 }

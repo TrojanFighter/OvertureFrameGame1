@@ -18,7 +18,7 @@ MonoBehaviour:
   - 3
   - 4
   _levelScene:
-  - CensorA1
+  - a1
   - CensorA2
   - CensorA3
   - CensorB1

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Overture.FrameGame;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Video;
@@ -12,7 +13,11 @@ namespace Overture.CommentCensor
     public class CommentManager : MonoBehaviourEX<CommentManager>
     {
         
-        public float TRexScore, StegosaursScore, PterosaursScore;
+        public float TRexScore=0, StegosaursScore=0, PterosaursScore=0;
+        public int FailureCount=0;
+
+        public float extraTimeToWait = 2f;
+        
         public VideoPlayer m_videoPlayer;
         private Dictionary<int, Comment> m_CommentDictionary;
         private Dictionary<int, CommentUIPrefab> m_CommentUIDictionary;
@@ -164,6 +169,30 @@ namespace Overture.CommentCensor
                     PterosaursScore += m_CommentDictionary[commentID].PterosaursReactionDoNothing;
                     break;
             }
+        }
+
+        void Start()
+        {
+            StartCoroutine(FinalEvaluation());
+        }
+
+        public IEnumerator FinalEvaluation()
+        {
+            yield return new WaitForSeconds(m_videoPlayer.frameCount/m_videoPlayer.frameRate+extraTimeToWait);
+            if (TRexScore > StegosaursScore && TRexScore > PterosaursScore)
+            {
+                Overture.FrameGame.GameManager.Instance.SubmitScore(1,0,0,FailureCount);
+            }
+            else if(StegosaursScore > TRexScore && StegosaursScore > PterosaursScore)
+            {
+                Overture.FrameGame.GameManager.Instance.SubmitScore(0,1,0,FailureCount);
+            }
+            else if(PterosaursScore > TRexScore && PterosaursScore > StegosaursScore)
+            {
+                Overture.FrameGame.GameManager.Instance.SubmitScore(0,0,1,FailureCount);
+            }
+
+            Overture.FrameGame.GameManager.Instance.ReturnToDesktop();
         }
     }
 }
