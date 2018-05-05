@@ -16,8 +16,8 @@
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>9160</WindowHeight>
-  <WindowWidth>23234</WindowWidth>
+  <WindowHeight>9048</WindowHeight>
+  <WindowWidth>11496</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
@@ -42,17 +42,17 @@
  </Styles>
  <Worksheet ss:Name="Sheet1">
   <Table ss:ExpandedColumnCount="18" ss:ExpandedRowCount="106" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultColumnWidth="48.403361344537821"
-   ss:DefaultRowHeight="14.067226890756302">
-   <Column ss:AutoFitWidth="0" ss:Width="60.504201680672267"/>
-   <Column ss:AutoFitWidth="0" ss:Width="277.71428571428572"/>
-   <Column ss:AutoFitWidth="0" ss:Width="115.56302521008404"/>
-   <Column ss:AutoFitWidth="0" ss:Width="78.05042016806722"/>
-   <Column ss:AutoFitWidth="0" ss:Width="90.756302521008394"/>
-   <Column ss:AutoFitWidth="0" ss:Width="52.638655462184872"/>
-   <Column ss:AutoFitWidth="0" ss:Width="70.789915966386545"/>
-   <Column ss:AutoFitWidth="0" ss:Width="168.80672268907563"/>
-   <Column ss:AutoFitWidth="0" ss:Width="133.109243697479"/>
+   x:FullRows="1" ss:DefaultColumnWidth="48.6"
+   ss:DefaultRowHeight="13.950000000000001">
+   <Column ss:AutoFitWidth="0" ss:Width="60.6"/>
+   <Column ss:AutoFitWidth="0" ss:Width="277.8"/>
+   <Column ss:AutoFitWidth="0" ss:Width="115.80000000000001"/>
+   <Column ss:AutoFitWidth="0" ss:Width="78"/>
+   <Column ss:AutoFitWidth="0" ss:Width="90.6"/>
+   <Column ss:AutoFitWidth="0" ss:Width="52.8"/>
+   <Column ss:AutoFitWidth="0" ss:Width="70.8"/>
+   <Column ss:AutoFitWidth="0" ss:Width="168.60000000000002"/>
+   <Column ss:AutoFitWidth="0" ss:Width="133.20000000000002"/>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CommentID</Data></Cell>
     <Cell><Data ss:Type="String">CommentContent</Data></Cell>
@@ -63,20 +63,15 @@
     <Cell ss:StyleID="s62"><Data ss:Type="String">CorrectCensorType</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">UpvoteReactionText</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">MuteReactionText</Data></Cell>
-    <Cell ss:StyleID="s62"><ss:Data ss:Type="String"
-      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">T-RexesReactionUp</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">T-RexesReactionUp</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">StegosaursReactionUp</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">PterosaursReactionUp</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">T-RexesReactionDoNothing</Data></Cell>
-    <Cell ss:StyleID="s62"><ss:Data ss:Type="String"
-      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">StegosaursReactionDoNothing</Font></ss:Data></Cell>
-    <Cell ss:StyleID="s62"><ss:Data ss:Type="String"
-      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">PterosaursReactionDoNothing</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">StegosaursReactionDoNothing</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PterosaursReactionDoNothing</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">T-RexesReactionRemove</Data></Cell>
-    <Cell ss:StyleID="s62"><ss:Data ss:Type="String"
-      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">StegosaursReactionRemove</Font></ss:Data></Cell>
-    <Cell ss:StyleID="s62"><ss:Data ss:Type="String"
-      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">PterosaursReactionRemove</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">StegosaursReactionRemove</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PterosaursReactionRemove</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">ID Of Comment</Data></Cell>
@@ -120,7 +115,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="String">Hello, guys.</Data></Cell>
+    <Cell><Data ss:Type="String">WE LOVE YOU GARY!!!!</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/08/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -140,7 +135,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">LMAO here he comes</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">horn enlargement $25000 PM me</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/06/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -160,7 +155,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Welcome to Horror fun time.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">I heard that Gary eats three humans a day before he works out #problematic</Data></Cell>
     <Cell><Data ss:Type="Number">6</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/08/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -180,7 +175,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">4</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">This fat boy looks delicious</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Cheap VPNS Get Past Work Filters Watch Porn</Data></Cell>
     <Cell><Data ss:Type="Number">7</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/08/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -200,7 +195,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">5</Data></Cell>
-    <Cell><Data ss:Type="String">This show has me in stitches! #greatjob</Data></Cell>
+    <Cell><Data ss:Type="String">The first dinosaur to run the Boston marathon #historic</Data></Cell>
     <Cell><Data ss:Type="Number">9</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/09/2021</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -240,7 +235,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">7</Data></Cell>
-    <Cell><Data ss:Type="String">ROFL the look on their face is priceless</Data></Cell>
+    <Cell><Data ss:Type="String">GARY! GARY! GARY!</Data></Cell>
     <Cell><Data ss:Type="Number">12</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/08/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -280,7 +275,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">9</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">What a stunned look</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">A true American Hero </Data></Cell>
     <Cell><Data ss:Type="Number">15</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/08/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -300,7 +295,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">10</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Human! RUN!</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">fuck you</Data></Cell>
     <Cell><Data ss:Type="Number">18.5</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/08/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -320,7 +315,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">11</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Human! RUN!</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">no fuck you</Data></Cell>
     <Cell><Data ss:Type="Number">18.8</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/09/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -340,7 +335,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">12</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Human! RUN!</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">fucking shut up both of you</Data></Cell>
     <Cell><Data ss:Type="Number">19.100000000000001</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/09/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -360,7 +355,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">13</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">I really like this part.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">This is a glorious day for Dino Kind</Data></Cell>
     <Cell><Data ss:Type="Number">22</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/09/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -380,7 +375,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">14</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">This is truly a ROFL show</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Gary is adorable</Data></Cell>
     <Cell><Data ss:Type="Number">24</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/09/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -400,7 +395,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">15</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">It reminds me of the good old times.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Gary! Marry me!</Data></Cell>
     <Cell><Data ss:Type="Number">25</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/09/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -420,7 +415,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">16</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">HUMAN! RUN!</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">horn enlargement $25000 PM me</Data></Cell>
     <Cell><Data ss:Type="Number">30</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/08/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -440,7 +435,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">17</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">HUMAN! RUN!</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">horn enlargement $25000 PM me</Data></Cell>
     <Cell><Data ss:Type="Number">30.4</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/09/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -460,7 +455,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">18</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">HUMAN! RUN!</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">horn enlargement $25000 PM me</Data></Cell>
     <Cell><Data ss:Type="Number">30.8</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/09/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -480,7 +475,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">19</Data></Cell>
-    <Cell><Data ss:Type="String">I can't wait for these humans to go extinct</Data></Cell>
+    <Cell><Data ss:Type="String">Gary takes steroids for edge: www.garycheats.org</Data></Cell>
     <Cell><Data ss:Type="Number">33</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/08/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -500,7 +495,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">20</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Why look back, man?</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">fuck garycheats</Data></Cell>
     <Cell><Data ss:Type="Number">36</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/09/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -540,7 +535,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">22</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">What a feast!</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DINOSAUR TEETH ENLARGEMENT PILLS CHEAP www.dentalmiracle.com</Data></Cell>
     <Cell><Data ss:Type="Number">39</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/08/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -560,7 +555,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">23</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Why not quit walking?</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Gary for 2020 Olympics!</Data></Cell>
     <Cell><Data ss:Type="Number">39.5</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/09/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -580,7 +575,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">24</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">He doesn’t wear proper uniforms for dinner.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">.</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/09/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
@@ -2193,12 +2188,12 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <LeftColumnVisible>3</LeftColumnVisible>
+   <TopRowVisible>6</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>6</ActiveRow>
-     <ActiveCol>10</ActiveCol>
+     <ActiveRow>28</ActiveRow>
+     <ActiveCol>1</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
