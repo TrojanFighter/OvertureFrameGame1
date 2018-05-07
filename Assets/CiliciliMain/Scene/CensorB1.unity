@@ -616,6 +616,12 @@ Prefab:
       propertyPath: m_TimeLabel
       value: 
       objectReference: {fileID: 1911273591}
+    - target: {fileID: 328564297911061780, guid: d33ff0576684c774eabd4c8bec93afa8,
+        type: 2}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: ba0dfd9b91623f9449ddfaf6e52777f5,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d33ff0576684c774eabd4c8bec93afa8, type: 2}
   m_IsPrefabParent: 0
