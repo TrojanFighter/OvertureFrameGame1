@@ -301,7 +301,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1499892978256596
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,7 +318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1504325856253968
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +371,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1553243025423064
 GameObject:
   m_ObjectHideFlags: 1
@@ -545,7 +545,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1817877192843544
 GameObject:
   m_ObjectHideFlags: 0
@@ -1547,11 +1547,13 @@ MonoBehaviour:
   TRexScore: 0
   StegosaursScore: 0
   PterosaursScore: 0
+  FailureCount: 0
+  extraTimeToWait: 2
   m_videoPlayer: {fileID: 0}
   CommentRoot: {fileID: 224343813861979638}
   m_CommentUIPrefab: {fileID: 114183397428276204, guid: b1ced16ea0d096248ae1822d08984be3,
     type: 2}
-  m_CurrentLevel: 1
+  m_CurrentLevel: 0
 --- !u!114 &114800634891180236
 MonoBehaviour:
   m_ObjectHideFlags: 1

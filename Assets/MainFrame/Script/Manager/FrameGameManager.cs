@@ -14,6 +14,7 @@ namespace Overture.FrameGame
 		public EmailConfig m_mailconfig;
 
 		public ProgressConfig m_ProgressConfig;
+		public EndingConfig m_EndingConfig;
 
 		public bool stateInited=false;
 		public int EmailProgressNum= 0;
@@ -38,6 +39,7 @@ namespace Overture.FrameGame
 			if(m_config==null)m_config = Resources.Load<StageConfig>("Configs/StageConfig");
 			if(m_mailconfig==null)m_mailconfig= Resources.Load<EmailConfig>("Configs/EmailConfig");
 			if(m_ProgressConfig==null)m_ProgressConfig= Resources.Load<ProgressConfig>("Configs/ProgressConfig");
+			if(m_EndingConfig==null)m_EndingConfig= Resources.Load<EndingConfig>("Configs/EndingConfig");
 		}
 
 
