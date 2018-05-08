@@ -615,7 +615,7 @@ Prefab:
         type: 2}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: ec10d71ed45edcf4c945a94353b2d3cc,
+      objectReference: {fileID: 32900000, guid: 850b4c9c1da55d6429b4738a45b62fdf,
         type: 3}
     - target: {fileID: 114474087007719766, guid: d33ff0576684c774eabd4c8bec93afa8,
         type: 2}
@@ -636,6 +636,18 @@ Prefab:
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270094355778452, guid: d33ff0576684c774eabd4c8bec93afa8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.087
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270094355778452, guid: d33ff0576684c774eabd4c8bec93afa8, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.2500018
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270094355778452, guid: d33ff0576684c774eabd4c8bec93afa8, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.80825186
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d33ff0576684c774eabd4c8bec93afa8, type: 2}

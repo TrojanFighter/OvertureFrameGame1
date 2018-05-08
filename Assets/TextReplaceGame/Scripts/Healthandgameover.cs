@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Overture.FrameGame;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -26,6 +27,9 @@ namespace Overture.TextReplacement
 				//ModifyScoreTSP (1, 1, 0); JEFF LOOK HERE
 				//TriggerFail (); JEFF LOOK HERE
 				//SceneManager.LoadScene ("gameoverscene"); //loads the gameoverscene when health runs out
+				
+				FrameGameManager.Instance.SubmitScore(1,1,0,0);
+				FrameGameManager.Instance.ReturnToDesktop();
 			}
 
 
