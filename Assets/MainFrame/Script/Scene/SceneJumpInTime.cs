@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Overture.FrameGame;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 namespace Overture.FrameGame
 {
@@ -17,11 +18,22 @@ namespace Overture.FrameGame
 
 		public string m_nextSceneToLoad;
 
+		public VideoPlayer m_videoToMonitor;
+
 		// Use this for initialization
 		void Start()
 		{
-			StartCoroutine(DelayGoToScene(waitTime));
+			if (m_videoToMonitor == null)
+			{
+				StartCoroutine(DelayGoToScene(waitTime));
+			}
+			else
+			{
+				StartCoroutine(DelayGoToScene(waitTime+(float)m_videoToMonitor.clip.length));
+			}
 		}
+		
+		
 
 		IEnumerator DelayGoToScene(float delayTime)
 		{

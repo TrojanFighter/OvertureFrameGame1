@@ -28,8 +28,10 @@ namespace Overture.TextReplacement
 				//TriggerFail (); JEFF LOOK HERE
 				//SceneManager.LoadScene ("gameoverscene"); //loads the gameoverscene when health runs out
 				
-				FrameGameManager.Instance.SubmitScore(1,1,0,0);
-				FrameGameManager.Instance.ReturnToDesktop();
+				//FrameGameManager.Instance.SubmitScore(1,1,0,0);
+				//FrameGameManager.Instance.ReturnToDesktop();
+				GameSaveManager.StoreScore(1,1,0,0);
+				SceneManager.LoadScene ("MainFrame");
 			}
 
 

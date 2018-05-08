@@ -11,6 +11,8 @@ namespace Overture.Captcha{
 		public float timer;
 		public float timeTotal;
 		public bool timeIsUp =  false;
+
+		public bool TimerIsOn = true;
 		// Use this for initialization
 
 		void Awake()
@@ -32,6 +34,11 @@ namespace Overture.Captcha{
 
 		void Update () 
 		{
+			if (!TimerIsOn)
+			{
+				return;
+			}
+
 			timer -= Time.deltaTime;
 			if (timer <= 0) {
 				timeIsUp = true;

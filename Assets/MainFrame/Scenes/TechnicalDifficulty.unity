@@ -187,8 +187,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7092095e98c02841a5214f259818d00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 12
+  waitTime: 1
   m_nextSceneToLoad: MainFrame
+  m_videoToMonitor: {fileID: 93690100}
 --- !u!1 &1034580161
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11087e9fb01be2f49a15dffd51b132d7, type: 3}
   m_Name: EmailConfig
   m_EditorClassIdentifier: 
+  _specialEmailToLoad: 
   _emailtitles:
   - aaa
   - bbb
@@ -19,31 +20,31 @@ MonoBehaviour:
   - eee
   - fff
   _senderName:
-  - 'From: Ry-URR-n Ryanson, CEO'
-  - 'From: Ms. Bronto-BORE-us, Human Resources'
-  - 'From: CAPCHA NOTICE'
-  - 'From: Ry-URR-n Ryanson, CEO'
-  - 'From: Ms. Bronto-BORE-us, Human Resources'
-  - 'From: Ms. Bronto-BORE-us, Human Resources'
-  - 'From: Ry-URR-n Ryanson, CEO'
-  - 'From: Ry-URR-n Ryanson, CEO'
-  - 'From: Ms. Bronto-BORE-us, Human Resources'
-  - 'From: Ry-URR-n Ryanson, CEO'
-  - 'From: giantunit@bigdino.com'
-  - 'From: Terry Pterosaur, Acquisitions'
-  - 'From: Ry-URR-n Ryanson, CEO'
-  - 'From: Ms. Bronto-BORE-us, Human Resources'
-  - 'From: Terry Pterosaur, Acquisitions'
-  - 'From: Ry-URR-n Ryanson, CEO'
-  - 'From: Ry-URR-n Ryanson, CEO'
-  - 'From: Chad Chetson, Marketing'
-  - 'From: Ry-URR-n Ryanson, CEO'
-  - 'From: Ry-URR-n Ryanson, CEO'
-  - 'From: Terry Pterosaur, Acquisitions'
-  - 'From: Ms. Bronto-BORE-us, Human Resources'
-  - 'From: Ry-URR-n Ryanson, CEO'
-  - 'From: Ry-URR-n Ryanson, CEO'
-  - Ending
+  - af
+  - asdf
+  - fasdf
+  - fdsaf
+  - dsfa
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
+  - afsdf
   _emailBody:
   - "Welcome to the first day on the job, [EMPLOYEE FIRST NAME]. I am so excited to
     have you on our team! You and your set of \u201Cskills\u201D are a valuable addition
@@ -183,10 +184,3 @@ MonoBehaviour:
   - Boss Email Valley Result
   - Mesomind Result
   - Ending?
-  _levelName:
-  - cc
-  - safsda
-  - sdfasaf
-  - safd
-  - safd
-  - asdf

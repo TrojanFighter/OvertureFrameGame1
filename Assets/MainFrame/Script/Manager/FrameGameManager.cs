@@ -81,6 +81,7 @@ namespace Overture.FrameGame
 					m_ProgressConfig.TRexScore = 0;
 					m_ProgressConfig.StegosaursScore = 0;
 					m_ProgressConfig.PterosaursScore = 0;
+					GameSaveManager.ClearStoredScore();
 						
 
 					GameStateManager.SetCurrentState(GameStateManager.GameState.MailReading);
@@ -90,6 +91,7 @@ namespace Overture.FrameGame
 					if (!stateInited)
 					{
 						EmailProgressNum = m_ProgressConfig.m_CurrentProgress;
+						ExtractStoredScore();
 						EnableProceedToWork(false);
 						ShowCurrentMail();
 						stateInited = true;
@@ -209,13 +211,28 @@ namespace Overture.FrameGame
 			m_OnAirAlert.GetComponent<Animator>().Play(0);
 		}
 
+		void ExtractStoredScore()
+		{
+			if (GameSaveManager.hasExtractedScore)
+			{
+				return;
+			}
+
+			m_ProgressConfig.TRexScore += GameSaveManager.StoredTRexScore;
+			m_ProgressConfig.StegosaursScore += GameSaveManager.StoredStegosaursScore;
+			m_ProgressConfig.PterosaursScore += GameSaveManager.StoredPterosaursScore;
+			m_ProgressConfig.FailureCount += GameSaveManager.StoredFailureCount;
+			GameSaveManager.ClearStoredScore();
+		}
+
+		/*
 		public void SubmitScore(int _TRexScore, int _StegosaursScore, int _PterosaursScore, int _FailureCount)
 		{
 			m_ProgressConfig.TRexScore += _TRexScore;
 			m_ProgressConfig.StegosaursScore += _StegosaursScore;
 			m_ProgressConfig.PterosaursScore += _PterosaursScore;
 			m_ProgressConfig.FailureCount += _FailureCount;
-		}
+		}*/
 
 		public void ReturnToDesktop()
 		{

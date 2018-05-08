@@ -64,6 +64,13 @@ public class ButtonClick : MonoBehaviour {
 				}
 				else
 				{
+					GameObject timer = GameObject.Find("Timer");
+					if (timer != null)
+					{
+						timer.GetComponent<TimerCountdown>().TimerIsOn = false;
+						Destroy(timer);
+					}
+
 					if (FrameGameManager.Instance != null)
 					{
 						FrameGameManager.Instance.ReturnToDesktop();

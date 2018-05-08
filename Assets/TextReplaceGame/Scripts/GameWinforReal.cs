@@ -26,8 +26,10 @@ namespace Overture.TextReplacement
 			//calls collider function
 			if (other.gameObject.GetComponent<Healthandgameover>())
 			{
-				FrameGameManager.Instance.SubmitScore(1,-1,0,0);
-				FrameGameManager.Instance.ReturnToDesktop();
+				//FrameGameManager.Instance.SubmitScore(1,-1,0,0);
+				//FrameGameManager.Instance.ReturnToDesktop();
+				GameSaveManager.StoreScore(1,-1,0,0);
+				SceneManager.LoadScene ("MainFrame");
 				//ModifyScoreTSP(1, -1, 0); JEFF LOOK HERE
 				//SceneManager.LoadScene ("gamewinscene"); JEFF IGNORE THIS
 			}

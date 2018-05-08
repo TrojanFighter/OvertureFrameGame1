@@ -434,7 +434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_config: {fileID: 11400000, guid: ec237238837455a4abcbb2d42d1426d8, type: 2}
-  m_mailconfig: {fileID: 11400000, guid: 6e1536483b764824b99372395d445919, type: 2}
+  m_mailconfig: {fileID: 11400000, guid: 4dc9665b8f59c8745a209f8b762057a9, type: 2}
   m_specialmailconfig: {fileID: 11400000, guid: 16871220dee42784ca2c00d4aa299902,
     type: 2}
   m_ProgressConfig: {fileID: 11400000, guid: 47c078f02aed8c8409c5951403bde824, type: 2}

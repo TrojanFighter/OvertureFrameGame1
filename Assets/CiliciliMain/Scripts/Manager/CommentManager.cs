@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Overture.FrameGame;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
 namespace Overture.CommentCensor
@@ -178,22 +179,26 @@ namespace Overture.CommentCensor
 
         public IEnumerator FinalEvaluation()
         {
-            Debug.Log(m_videoPlayer.frameCount+"  "+m_videoPlayer.frameRate);
-            yield return new WaitForSeconds(m_videoPlayer.frameCount/m_videoPlayer.frameRate+extraTimeToWait);
+            //Debug.Log(m_videoPlayer.clip.length+"  "+m_videoPlayer.frameRate);
+            yield return new WaitForSeconds((float)m_videoPlayer.clip.length+extraTimeToWait);
             if (TRexScore > StegosaursScore && TRexScore > PterosaursScore)
             {
-                Overture.FrameGame.FrameGameManager.Instance.SubmitScore(1,0,0,FailureCount);
+                //Overture.FrameGame.FrameGameManager.Instance.SubmitScore(1,0,0,FailureCount);
+                GameSaveManager.StoreScore(1,0,0,FailureCount);
             }
             else if(StegosaursScore > TRexScore && StegosaursScore > PterosaursScore)
             {
-                Overture.FrameGame.FrameGameManager.Instance.SubmitScore(0,1,0,FailureCount);
+                GameSaveManager.StoreScore(0,1,0,FailureCount);
+                //Overture.FrameGame.FrameGameManager.Instance.SubmitScore(0,1,0,FailureCount);
             }
             else if(PterosaursScore > TRexScore && PterosaursScore > StegosaursScore)
             {
-                Overture.FrameGame.FrameGameManager.Instance.SubmitScore(0,0,1,FailureCount);
+                GameSaveManager.StoreScore(0,0,1,FailureCount);
+                //Overture.FrameGame.FrameGameManager.Instance.SubmitScore(0,0,1,FailureCount);
             }
 
-            Overture.FrameGame.FrameGameManager.Instance.ReturnToDesktop();
+            SceneManager.LoadScene ("MainFrame");
+            //Overture.FrameGame.FrameGameManager.Instance.ReturnToDesktop();
         }
     }
 }
