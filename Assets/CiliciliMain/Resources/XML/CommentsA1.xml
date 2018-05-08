@@ -533,6 +533,7 @@
      <Number>3</Number>
      <ActiveRow>17</ActiveRow>
      <ActiveCol>1</ActiveCol>
+     <RangeSelection>R107C2:R127C2</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
