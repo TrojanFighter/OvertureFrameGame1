@@ -26,45 +26,42 @@ MonoBehaviour:
   - dsfa
   - afsdf
   _emailBody:
-  - "Saying hi to my little ones!11! :3  Hey, new hire! We\u2019re so happy to have
-    you join our junior content curation team today. I know you have dreams of creating
-    one day, but we do have to start small (like you :D!) And this position is just
-    perfect for you, what with those useful little thumbys of yours.  I know you got
-    the spiel already- didn\u2019t you just LOVE my outfit?- so I\u2019ll let you
-    get to it. Just remember to edit the content so the audience ratings are balanced
-    out, and you should be fine! "
+  - "Hello [EMPLOYEE FIRST NAME],  Welcome to the first day on the job, [EMPLOYEE
+    FIRST NAME]. I am so excited to have you on our team! You and your set of \u201Cskills\u201D
+    are a valuable addition to our company, and we hope you enjoy your time working
+    for us!  If you ever have questions, feel free to email me at [MY WORK EMAIL],
+    and if you have any concerns or complaints about your work environment, feel free
+    to contact our HR representative, [CURRENT HR REP FIRST NAME] at [HR EMAIL]"
+  - "Hey, new hire! We\u2019re so happy to have you join our junior content curation
+    team today. I know you have dreams of creating one day, but we do have to start
+    small (like you :D!) And this position is just perfect for you, what with those
+    useful little thumbys of yours.  I know you got the spiel already- didn\u2019t
+    you just LOVE my outfit?- so I\u2019ll let you get to it. Just remember to edit
+    the content so the audience ratings are balanced out, and you should be fine!"
+  - "Hey junior,  I need you to man the live censor software today. We got a children\u2019s
+    show that\u2019s gotten a little bit too liberal with their content and I don\u2019t
+    want a bunch of angry parents pounding down my door because some hack animators
+    wanted to be \u201CProgressive\u201D. All you have to do is use the mouse to keep
+    pants on the animated dino.Our Stegosaurus audiences will be grateful. But hey,
+    if you mess up, we can always just say that the show was meant for Pterosaurs.
+    Just do the best you can do."
   - "Yo, buddy! I\u2019m just sending this out to make sure that you\u2019ve signed
     up for the mandatory company life insurance? No rush, but we do require it of
     every human worker here at DDB. Just in case of little on-the-job whoopsies!  Try
-    to get it to me by Friday, ok?  Counting on u, "
+    to get it to me by Friday, ok?"
   - "Hewwooooooo! I\u2019m noticing that you still haven\u2019t signed up for life
     insurance yet? We really DO need that before we can send you your pay, so please
     fill it out! Or else I can\u2019t pay you, dear! It really is your own fault if
     groceries are a bit tight this week, haha!  If you need someone to help read it
     to you, or explain it to you, let me know, ok? We offer accommodations for all...skill
     levels here.  Also, I\u2019ve received your complaint about harassment. I\u2019ll
-    be in touch later. "
-  - "Human! Human! I have some good news for you. I\u2019ve spoken with the velociraptor
-    who kept threatening to eat you, Gary, great guy, and I got him to admit he did
-    it! Aren\u2019t you proud of me? So, next, we\u2019re gonna need you to engage
-    in mandatory sensitivity training, to help prepare you for those kind of comments.
-    After that, they shouldn\u2019t hurt anymore! It\u2019s important to fit into
-    the company culture.  By the way, the casual fall formal mixer BLASTATHON is coming
-    up! I hope you have a date in mind? "
-  - "Human, I heard that you invited a duckbill to the fall formal? That\u2019s not
-    allowed! Maybe it\u2019s my fault? Was I not clear enough?  The fall formal is
-    a human only activity! We get you all dressed up in those cute little outfits
-    and pair you up with each other and take pictures! It\u2019s so cute :3! The dinosaur
-    employees are only there to observe, not participate.  Jim\u2019s decided not
-    to complain about you asking him, though, so you\u2019re fine for now. Lucky you!
-    \ Try to be careful about office etiquette for as long as you still work here,
-    ok? "
-  - "Human,  I\u2019m hearing that you performed adequately on censoring out the hip
-    hop music video today. The pterosaurs can\u2019t stand that shit, think it\u2019s
-    corny, so good job on upping their rating with us. Seems like we\u2019ve lost
-    a few points with the stegos, though. They like corny. Still, you did as asked,
-    so I can\u2019t be...too...mad. I\u2019ve been told to be more lenient on the
-    first day.  Get back to work! "
+    be in touch later."
+  - "Hey newbie,  Chad from marketing here, wondering if you\u2019d like to put some
+    money in for the bracket we got going for the Dinosaur Basketball championships.
+    $25 and a bracket by Monday and you\u2019re in.   Oh, by the way, thanks for the
+    heads up the other day about Ry-URR-n, that guy\u2019s a jerk. I owe you one (He
+    nearly got a chunk of me), let me know if you need anything. Us corporate drones
+    gotta stick together, right?  "
   _levelName:
   - cc
   - safsda

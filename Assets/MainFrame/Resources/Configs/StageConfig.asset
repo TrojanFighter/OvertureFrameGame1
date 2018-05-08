@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Name: StageConfig
   m_EditorClassIdentifier: 
   _levelEmailID:
-  - 0
-  - 1
-  - 2
-  - 3
-  - 4
+  - 0,1
+  - 2,3
+  - 3,4
+  - 4,5
+  - 
   _levelScene:
   - a1
-  - CensorA2
+  - CensorA1
   - CensorA3
   - CensorB1
   - CensorC1
