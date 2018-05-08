@@ -70,6 +70,7 @@ public class ButtonClick : MonoBehaviour {
 					}
 					else
 					{
+						GameStateManager.STATE = GameStateManager.GameState.MailReading;
 						SceneManager.LoadScene("MainFrame");
 					}
 				}

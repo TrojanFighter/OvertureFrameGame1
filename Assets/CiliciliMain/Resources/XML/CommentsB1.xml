@@ -7,17 +7,17 @@
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Author>MusketeerOrder</Author>
-  <LastAuthor>MusketeerOrder</LastAuthor>
+  <LastAuthor>Oliver Hong</LastAuthor>
   <Created>2018-03-08T20:51:38Z</Created>
-  <LastSaved>2018-04-19T21:01:17Z</LastSaved>
+  <LastSaved>2018-05-08T13:51:03Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>9160</WindowHeight>
-  <WindowWidth>23234</WindowWidth>
+  <WindowHeight>9072</WindowHeight>
+  <WindowWidth>19008</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
@@ -39,19 +39,38 @@
    <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
    <NumberFormat ss:Format="@"/>
   </Style>
+  <Style ss:ID="s64">
+   <Interior ss:Color="#C00000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#C00000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#C00000" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="18" ss:ExpandedRowCount="37" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultColumnWidth="48.403361344537821"
-   ss:DefaultRowHeight="14.067226890756302">
-   <Column ss:AutoFitWidth="0" ss:Width="60.504201680672267"/>
-   <Column ss:AutoFitWidth="0" ss:Width="277.71428571428572"/>
-   <Column ss:AutoFitWidth="0" ss:Width="115.56302521008404"/>
-   <Column ss:AutoFitWidth="0" ss:Width="78.05042016806722"/>
-   <Column ss:AutoFitWidth="0" ss:Width="90.756302521008394"/>
-   <Column ss:AutoFitWidth="0" ss:Width="52.638655462184872"/>
-   <Column ss:AutoFitWidth="0" ss:Width="70.789915966386545"/>
-   <Column ss:AutoFitWidth="0" ss:Width="191.79831932773109"/>
+  <Table ss:ExpandedColumnCount="18" ss:ExpandedRowCount="103" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="48.6"
+   ss:DefaultRowHeight="13.950000000000001">
+   <Column ss:AutoFitWidth="0" ss:Width="60.6"/>
+   <Column ss:AutoFitWidth="0" ss:Width="277.8"/>
+   <Column ss:AutoFitWidth="0" ss:Width="115.80000000000001"/>
+   <Column ss:AutoFitWidth="0" ss:Width="78"/>
+   <Column ss:AutoFitWidth="0" ss:Width="90.6"/>
+   <Column ss:AutoFitWidth="0" ss:Width="52.8"/>
+   <Column ss:AutoFitWidth="0" ss:Width="70.8"/>
+   <Column ss:AutoFitWidth="0" ss:Width="192"/>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CommentID</Data></Cell>
     <Cell><Data ss:Type="String">CommentContent</Data></Cell>
@@ -114,16 +133,16 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Let's rock</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">It's hard to think that this is how they thought of us</Data></Cell>
     <Cell><Data ss:Type="Number">0.10000000000000009</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -134,56 +153,16 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">good day guys</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">I think this movie would be a great start to a greater discussion</Data></Cell>
     <Cell><Data ss:Type="Number">0.19999999999999996</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">What is the blocking thing?</Data></Cell>
-    <Cell><Data ss:Type="Number">0.3</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
-    <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="Number">4</Data></Cell>
-    <Cell><Data ss:Type="String">THICC</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
-    <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">5</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -192,98 +171,138 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="Number">5</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">THICCCCC</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">YEAH FUCK EM UP</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="Number">6</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">THICCCCCC</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">This is what humans want to do to us!</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Have you seen what these people do to eggs? Disgusting.</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">How dare DDE air this, this is awful</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">7</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">if u like this ur racist</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">horn enlargement $25000 PM me</Data></Cell>
     <Cell><Data ss:Type="Number">6</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh just joking</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">10</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Is he shitting?</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">horn enlargement $25000 PM me</Data></Cell>
     <Cell><Data ss:Type="Number">7</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">11</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Disgusting...</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">I think it's important for our eggs to learn from this</Data></Cell>
     <Cell><Data ss:Type="Number">7.5</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -292,298 +311,298 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">8</Data></Cell>
-    <Cell><Data ss:Type="String">T Rex more like T racist</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Fuck humans!</Data></Cell>
     <Cell><Data ss:Type="Number">8</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">9</Data></Cell>
-    <Cell><Data ss:Type="String">Is it bad that I kind of like this</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Yeah FUCK EM</Data></Cell>
     <Cell><Data ss:Type="Number">9</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">It needs to be spread out.</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">12</Data></Cell>
-    <Cell><Data ss:Type="String">hawt</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Garycheats.net</Data></Cell>
     <Cell><Data ss:Type="Number">11</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">13</Data></Cell>
-    <Cell><Data ss:Type="String">aww yeah fuck him up</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">What are those humans wearing, and wear can I get some?</Data></Cell>
     <Cell><Data ss:Type="Number">12</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">14</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">I wannta fuck them</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Is it weird that I'm turned on by this?</Data></Cell>
     <Cell><Data ss:Type="Number">16.5</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">15</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh Dinosaur JEsus I'm so hot right now</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">#confusedboner</Data></Cell>
     <Cell><Data ss:Type="Number">16.8</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">I am innocent!</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">I am not with that guy!</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">16</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Do you think he gets horny from the killing?</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Stupid SJWs want #human programing eww</Data></Cell>
     <Cell><Data ss:Type="Number">19</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">I am innocent!</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">I am not with that guy!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">17</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">gr8 job</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">This is definitely what humans want to do with these damned dinos</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">18</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">YEAHFUCKINGTREXES</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">8&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-D&#45;&#45;&#45;&#45;-</Data></Cell>
     <Cell><Data ss:Type="Number">22</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">19</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">OMG this is so scary! </Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Fuck you Garycheats gTFO out of here</Data></Cell>
     <Cell><Data ss:Type="Number">23</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">No! The world deserves to know!</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="Number">20</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Is he hurt?</Data></Cell>
-    <Cell><Data ss:Type="Number">24</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
-    <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">21</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">I love these special effects!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">If you insult our hero one more time I swear I'm going to doxx you</Data></Cell>
     <Cell><Data ss:Type="Number">28</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">22</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oooh, that's gotta hurt.</Data></Cell>
+    <Cell><Data ss:Type="String">Hiring hackerz $50/hr to hax DDB</Data></Cell>
     <Cell><Data ss:Type="Number">28.4</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">I am innocent!</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">I am not with that guy!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">23</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">It's a good thing this is all fake</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">SHUT UP!</Data></Cell>
     <Cell><Data ss:Type="Number">30</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">I am innocent!</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">I am not with that guy!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">24</Data></Cell>
-    <Cell><Data ss:Type="String">I think I might throw up...</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Hey guys, maybe don't be jerks? Thanks.</Data></Cell>
     <Cell><Data ss:Type="Number">31</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">We hate human don’t we?</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -594,16 +613,16 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">25</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">I can't watch...</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">#Education4eggs</Data></Cell>
     <Cell><Data ss:Type="Number">32</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -612,58 +631,58 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">26</Data></Cell>
-    <Cell><Data ss:Type="String">I'm glad to see #DDE isn't afraid to tell the truth!</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Let's not be racist, ok?</Data></Cell>
     <Cell><Data ss:Type="Number">33</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Glad u hate DDB as well</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Sorry I am paid for this</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
     <Cell><Data ss:Type="Number">27</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">These actors are doing such a great job</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Look, we can be mature adults here, let's keep the cursing down?</Data></Cell>
     <Cell><Data ss:Type="Number">34</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">We hate human don’t we?</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">28</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Sweet SFX!</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Is this supposed to be a documentary?</Data></Cell>
     <Cell><Data ss:Type="Number">36.5</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -674,16 +693,16 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">29</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">#DDE has the shows for me!</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">This old movie doesn't reflect humanity as a whole</Data></Cell>
     <Cell><Data ss:Type="Number">37</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -694,16 +713,16 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">30</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">To think humans think this is us</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">It's only through learning our history do we progress</Data></Cell>
     <Cell><Data ss:Type="Number">38.299999999999997</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -714,16 +733,16 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">31</Data></Cell>
-    <Cell><Data ss:Type="String">This is fine</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Is this supposed to be a documentary?</Data></Cell>
     <Cell><Data ss:Type="Number">39</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Thanks for the promotion</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Hey I just try to help people</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -734,16 +753,16 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">32</Data></Cell>
-    <Cell><Data ss:Type="String">Nature is scary!</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">This old movie doesn't reflect humanity as a whole</Data></Cell>
     <Cell><Data ss:Type="Number">39.200000000000003</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -754,16 +773,196 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">33</Data></Cell>
-    <Cell><Data ss:Type="String">This is much better than that evolution documentary</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">It's only through learning our history do we progress</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Let's not be racist, ok?</Data></Cell>
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Garycheats.net</Data></Cell>
+    <Cell><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2019</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">THAT’S IT</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2020</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">GAARY IS A SAINT AND HE WOULD NOT EAT A HUMAN</Data></Cell>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2021</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">I DON’T KNOW WHERE YOU LIVE BUT I WILL FIND YOU</Data></Cell>
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2022</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">AND EAT YOU</Data></Cell>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2023</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Hey yo I'm just doing my job</Data></Cell>
+    <Cell><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2024</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">I don't even believe in this stuff</Data></Cell>
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2025</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Hey, stay on topic!</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2026</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -773,15 +972,177 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="Number">34</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">We've grown past this.</Data></Cell>
-    <Cell><Data ss:Type="Number">41</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
+    <Cell><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">#Progress</Data></Cell>
+    <Cell><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2027</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">This is a very controversial movie, but it has not aged well</Data></Cell>
+    <Cell><Data ss:Type="Number">52</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2028</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">These are great SFX, humans are so smart!</Data></Cell>
+    <Cell><Data ss:Type="Number">53</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2029</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DDB is the TV for me!</Data></Cell>
+    <Cell><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2030</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">#DDB Lyfe</Data></Cell>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2031</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">This is not history, this is trash</Data></Cell>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2032</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">8&#45;&#45;&#45;-D&#45;&#45;&#45;&#45;&#45;&#45;&#45;-</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2033</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">8&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-D&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;- Mines longer</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2034</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Glad #DDB isn't afraid of controversy</Data></Cell>
+    <Cell><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2035</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -789,7 +1150,985 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">52</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Late night TV amIrite</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2036</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">53</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Should we teach this in schools?</Data></Cell>
+    <Cell><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2037</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">By the holy meteor this is bad</Data></Cell>
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2038</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Fuck this I'm changing the channel</Data></Cell>
+    <Cell><Data ss:Type="Number">63</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2039</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Booooo</Data></Cell>
+    <Cell><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2040</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Boooooo</Data></Cell>
+    <Cell><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2041</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">I'm a supporter of these #alternativeviewpoints</Data></Cell>
+    <Cell><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2042</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Why not just eat them?  </Data></Cell>
+    <Cell><Data ss:Type="Number">67</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2043</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Because we're not monsters Chad</Data></Cell>
+    <Cell><Data ss:Type="Number">68</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2044</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">They eat eggs, humans aren't monsters?</Data></Cell>
+    <Cell><Data ss:Type="Number">69</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2045</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">That's different, we can't just shit on their culture like that</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2046</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">63</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">#DDB TV is the channel for me!</Data></Cell>
+    <Cell><Data ss:Type="Number">71</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2047</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">#CBTV IS BETTER</Data></Cell>
+    <Cell><Data ss:Type="Number">72</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2048</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">8&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-D&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-</Data></Cell>
+    <Cell><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2049</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">mods plz ban Garycheats</Data></Cell>
+    <Cell><Data ss:Type="Number">74</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2050</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">67</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Gary maybe you should stop posting</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2051</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">68</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">NO NOT UNTIL GARYCHEATS APOLOGIZES</Data></Cell>
+    <Cell><Data ss:Type="Number">76</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2052</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">69</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">#garyrules</Data></Cell>
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2053</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">#DDB TV brings the most mature programing to the forefront</Data></Cell>
+    <Cell><Data ss:Type="Number">78</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2054</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">71</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">what the hell why isn't this censored</Data></Cell>
+    <Cell><Data ss:Type="Number">79</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2055</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">72</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">I would love to be a dinosaur cowboy when I grow up!</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2056</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">im 5 what is this</Data></Cell>
+    <Cell><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2057</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">74</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">FUCK I HATE HUMANS SO MUCH</Data></Cell>
+    <Cell><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2058</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">What are cows?</Data></Cell>
+    <Cell><Data ss:Type="Number">83</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2059</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">76</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Gary smells, Ashley's a loser too</Data></Cell>
+    <Cell><Data ss:Type="Number">84</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2060</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">DID YOU SEE WHAT THEY CALLED MY GF</Data></Cell>
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2061</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">78</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Gary geez calm down someone has to read this</Data></Cell>
+    <Cell><Data ss:Type="Number">86</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2062</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">79</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">how the hell do you lizard brains even manage to type</Data></Cell>
+    <Cell><Data ss:Type="Number">87</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2063</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Is anyone even watching still? </Data></Cell>
+    <Cell><Data ss:Type="Number">88</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2064</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Don't feed the trolls</Data></Cell>
+    <Cell><Data ss:Type="Number">89</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2065</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Don't feed the trolls</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2066</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">83</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">whoops double post</Data></Cell>
+    <Cell><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2067</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">84</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">stop spamming</Data></Cell>
+    <Cell><Data ss:Type="Number">92</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2068</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">sorry</Data></Cell>
+    <Cell><Data ss:Type="Number">93</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2069</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">86</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">#DDBTV is #1</Data></Cell>
+    <Cell><Data ss:Type="Number">94</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2070</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">87</Data></Cell>
+    <Cell><Data ss:Type="String">#DDBTV are pushing the envelope on programming</Data></Cell>
+    <Cell><Data ss:Type="Number">95</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2071</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">88</Data></Cell>
+    <Cell><Data ss:Type="String">#DDBTV is TV for everyone!</Data></Cell>
+    <Cell><Data ss:Type="Number">96</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2072</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">89</Data></Cell>
+    <Cell><Data ss:Type="String">#DDBTV sucks</Data></Cell>
+    <Cell><Data ss:Type="Number">97</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2073</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="String">Gross who let the shill in</Data></Cell>
+    <Cell><Data ss:Type="Number">98</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2074</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">91</Data></Cell>
+    <Cell><Data ss:Type="String">#DDBTV obviously</Data></Cell>
+    <Cell><Data ss:Type="Number">99</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2075</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">92</Data></Cell>
+    <Cell><Data ss:Type="String">does anyone even read these comments</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2076</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">93</Data></Cell>
+    <Cell><Data ss:Type="String">#DDBTV is the TV for me!</Data></Cell>
+    <Cell><Data ss:Type="Number">101</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2077</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"> - Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">94</Data></Cell>
+    <Cell><Data ss:Type="String">Mod plz ban the shill</Data></Cell>
+    <Cell><Data ss:Type="Number">102</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2078</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">95</Data></Cell>
+    <Cell><Data ss:Type="String">#GARySMELLS</Data></Cell>
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2079</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">96</Data></Cell>
+    <Cell><Data ss:Type="String">STOP IT</Data></Cell>
+    <Cell><Data ss:Type="Number">104</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2080</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">97</Data></Cell>
+    <Cell><Data ss:Type="String">EAT ME</Data></Cell>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2081</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">98</Data></Cell>
+    <Cell><Data ss:Type="String">I WILL </Data></Cell>
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2082</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">99</Data></Cell>
+    <Cell><Data ss:Type="String">JUST TRY IT</Data></Cell>
+    <Cell><Data ss:Type="Number">107</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2083</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">#DDB doesn't moderate the comments</Data></Cell>
+    <Cell><Data ss:Type="Number">108</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/12/2084</Data></Cell>
+    <Cell><Data ss:Type="String">Bili</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + T-Rex Ratings</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"> + Pterosaur Ratings</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
   </Table>
@@ -807,12 +2146,13 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>22</TopRowVisible>
+   <TopRowVisible>78</TopRowVisible>
+   <LeftColumnVisible>7</LeftColumnVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>37</ActiveRow>
-     <RangeSelection>R38:R130</RangeSelection>
+     <ActiveRow>104</ActiveRow>
+     <ActiveCol>8</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
