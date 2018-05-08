@@ -181,17 +181,17 @@ namespace Overture.CommentCensor
         {
             //Debug.Log(m_videoPlayer.clip.length+"  "+m_videoPlayer.frameRate);
             yield return new WaitForSeconds((float)m_videoPlayer.clip.length+extraTimeToWait);
-            if (TRexScore > StegosaursScore && TRexScore > PterosaursScore)
+            if (TRexScore >= StegosaursScore && TRexScore >= PterosaursScore)
             {
                 //Overture.FrameGame.FrameGameManager.Instance.SubmitScore(1,0,0,FailureCount);
                 GameSaveManager.StoreScore(1,0,0,FailureCount);
             }
-            else if(StegosaursScore > TRexScore && StegosaursScore > PterosaursScore)
+            else if(StegosaursScore >= TRexScore && StegosaursScore >= PterosaursScore)
             {
                 GameSaveManager.StoreScore(0,1,0,FailureCount);
                 //Overture.FrameGame.FrameGameManager.Instance.SubmitScore(0,1,0,FailureCount);
             }
-            else if(PterosaursScore > TRexScore && PterosaursScore > StegosaursScore)
+            else if(PterosaursScore >= TRexScore && PterosaursScore >= StegosaursScore)
             {
                 GameSaveManager.StoreScore(0,0,1,FailureCount);
                 //Overture.FrameGame.FrameGameManager.Instance.SubmitScore(0,0,1,FailureCount);

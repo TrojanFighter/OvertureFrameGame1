@@ -30,7 +30,7 @@ namespace Overture.TextReplacement
 				
 				//FrameGameManager.Instance.SubmitScore(1,1,0,0);
 				//FrameGameManager.Instance.ReturnToDesktop();
-				GameSaveManager.StoreScore(1,1,0,0);
+				GameSaveManager.StoreScore(-1,1,0,0);
 				SceneManager.LoadScene ("MainFrame");
 			}
 
