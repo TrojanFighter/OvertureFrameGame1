@@ -360,7 +360,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waitTime: 5
-  m_nextSceneToLoad: TechnicalDifficulty
+  m_nextSceneToLoad: HRVideo
+  m_videoToMonitor: {fileID: 0}
 --- !u!1 &1004511189
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,6 +703,7 @@ MonoBehaviour:
   retryPushed: {fileID: 21300000, guid: b105cd5c375704d088a141978d297db5, type: 3}
   continuePushed: {fileID: 21300000, guid: 0f522bcb597254207a700c5174cc8a47, type: 3}
   submitPushed: {fileID: 21300000, guid: 82a66a0bfd6d1476ca6e30ee9f0dd1d9, type: 3}
+  BGoToDesktopNext: 0
 --- !u!114 &1399770973
 MonoBehaviour:
   m_ObjectHideFlags: 0
