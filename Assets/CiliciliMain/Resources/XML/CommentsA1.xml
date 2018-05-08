@@ -16,8 +16,8 @@
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>9072</WindowHeight>
-  <WindowWidth>23040</WindowWidth>
+  <WindowHeight>5652</WindowHeight>
+  <WindowWidth>17256</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
@@ -436,7 +436,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s66">
     <Cell><Data ss:Type="Number">16</Data></Cell>
     <Cell><Data ss:Type="String">Gary takes steroids for edge: www.garycheats.org</Data></Cell>
-    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">25.5</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">03/08/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
@@ -456,7 +456,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s66">
     <Cell><Data ss:Type="Number">17</Data></Cell>
     <Cell><Data ss:Type="String">Gary takes steroids for edge: www.garycheats.org</Data></Cell>
-    <Cell><Data ss:Type="Number">30.4</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">03/09/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
@@ -476,7 +476,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s66">
     <Cell><Data ss:Type="Number">18</Data></Cell>
     <Cell><Data ss:Type="String">Gary takes steroids for edge: www.garycheats.org</Data></Cell>
-    <Cell><Data ss:Type="Number">30.8</Data></Cell>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">03/09/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
@@ -496,7 +496,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s66">
     <Cell><Data ss:Type="Number">19</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">fuck garycheats</Data></Cell>
-    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">03/08/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
@@ -528,12 +528,12 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
+   <TopRowVisible>3</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>17</ActiveRow>
-     <ActiveCol>1</ActiveCol>
-     <RangeSelection>R107C2:R127C2</RangeSelection>
+     <ActiveRow>15</ActiveRow>
+     <ActiveCol>6</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
