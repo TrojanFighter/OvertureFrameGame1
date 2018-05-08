@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ac410d08c39daa4596fb8ea545f8829, type: 3}
   m_Name: EndingConfig
   m_EditorClassIdentifier: 
-  LastProgressNum: 0
+  LastProgressNum: 5
   FailEndingSceneName: 
   TRexEndingSceneName: 
   StegosaursEndingSceneName: 

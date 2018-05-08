@@ -435,7 +435,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_config: {fileID: 11400000, guid: ec237238837455a4abcbb2d42d1426d8, type: 2}
   m_mailconfig: {fileID: 11400000, guid: 6e1536483b764824b99372395d445919, type: 2}
+  m_specialmailconfig: {fileID: 11400000, guid: 16871220dee42784ca2c00d4aa299902,
+    type: 2}
   m_ProgressConfig: {fileID: 11400000, guid: 47c078f02aed8c8409c5951403bde824, type: 2}
+  m_EndingConfig: {fileID: 11400000, guid: b9e4c4c7e92b53545ace64ce2c645c99, type: 2}
   stateInited: 0
   EmailProgressNum: 0
   m_EmailManager: {fileID: 114443291471288498}

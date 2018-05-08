@@ -4,34 +4,38 @@ using Overture.FrameGame;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneJumpInTime : MonoBehaviour
+namespace Overture.FrameGame
 {
 
-	public float waitTime;
 
-	public Scene m_nextSceneToLoad;
-	// Use this for initialization
-	void Start ()
-	{
-		StartCoroutine(DelayGoToScene(waitTime));
-	}
 
-	IEnumerator DelayGoToScene(float delayTime)
+
+	public class SceneJumpInTime : MonoBehaviour
 	{
-		yield return new WaitForSeconds(delayTime);
-		if (m_nextSceneToLoad != null)
+
+		public float waitTime;
+
+		public string m_nextSceneToLoad;
+
+		// Use this for initialization
+		void Start()
 		{
-			SceneManager.LoadScene(m_nextSceneToLoad.name);
+			StartCoroutine(DelayGoToScene(waitTime));
 		}
-		else
+
+		IEnumerator DelayGoToScene(float delayTime)
 		{
-			FrameGameManager.Instance.ReturnToDesktop();
+			yield return new WaitForSeconds(delayTime);
+			if (m_nextSceneToLoad != string.Empty)
+			{
+				GameStateManager.STATE = GameStateManager.GameState.MailReading;
+				SceneManager.LoadScene(m_nextSceneToLoad);
+			}
+			else
+			{
+				FrameGameManager.Instance.ReturnToDesktop();
+			}
 		}
-	}
 
-	void SaveScore()
-	{
-		
 	}
-
 }

@@ -11,7 +11,7 @@ namespace Overture.FrameGame
 	{
 		public StageConfig m_config;
 
-		public EmailConfig m_mailconfig;
+		public EmailConfig m_mailconfig,m_specialmailconfig;
 
 		public ProgressConfig m_ProgressConfig;
 		public EndingConfig m_EndingConfig;
@@ -40,6 +40,7 @@ namespace Overture.FrameGame
 			if(m_mailconfig==null)m_mailconfig= Resources.Load<EmailConfig>("Configs/EmailConfig");
 			if(m_ProgressConfig==null)m_ProgressConfig= Resources.Load<ProgressConfig>("Configs/ProgressConfig");
 			if(m_EndingConfig==null)m_EndingConfig= Resources.Load<EndingConfig>("Configs/EndingConfig");
+			if(m_specialmailconfig==null)m_specialmailconfig= Resources.Load<EmailConfig>("Configs/SpecialEmailConfig");
 		}
 
 
@@ -117,25 +118,43 @@ namespace Overture.FrameGame
 					}
 					break;
 				case GameStateManager.GameState.Restarting:
+					
+					SceneManager.LoadScene("MainFrame");
+					GameStateManager.SetCurrentState(GameStateManager.GameState.Reset);
+					break;
+				case GameStateManager.GameState.Ending:
 					break;
 				default:
 					break;
 			}
 		}
 
-		void CheckEnding()
-		{
-			Debug.LogError("Email ID Out of Range!");
-		}
 
 		void ShowCurrentMail()
 		{
-			if (EmailProgressNum > m_config._LevelEmailID.Count)
+			if (EmailProgressNum >= m_config._LevelEmailID.Count)
 			{
-				CheckEnding();
+				EndingChecking();
+			}
+			
+			if (m_specialmailconfig._specialEmailToLoad.Count > 0)
+			{
+				for (int i = 0; i < m_specialmailconfig._specialEmailToLoad.Count; i++)
+				{
+				
+					Debug.Log(m_specialmailconfig._Titles[i]+" "+ m_specialmailconfig._SenderName[i]+""+m_specialmailconfig._EmailBody[i]);
+					EmailContent emailContent=new EmailContent();
+					emailContent.TITLE = m_specialmailconfig._Titles[i];
+					emailContent.SENDER = m_specialmailconfig._SenderName[i];
+					emailContent.BODY_TEXT = m_specialmailconfig._EmailBody[i];
+							
+					m_EmailManager.FillInEmail(emailContent);
+				}
+				
+				m_specialmailconfig._specialEmailToLoad.Clear();
 			}
 
-			Debug.Log("Showing Mail ID: "+m_config._LevelEmailID[EmailProgressNum]);
+			//Debug.Log("Showing Mail ID: "+m_config._LevelEmailID[EmailProgressNum]);
 			string emailIDstring = m_config._LevelEmailID[EmailProgressNum];
 			string[] emailID = emailIDstring.Split(',');
 
@@ -155,6 +174,9 @@ namespace Overture.FrameGame
 							
 				m_EmailManager.FillInEmail(emailContent);
 			}
+
+			
+			
 
 		}
 
@@ -200,11 +222,39 @@ namespace Overture.FrameGame
 			SetGameStateManager((int)GameStateManager.GameState.MailReading);
 			SceneManager.LoadScene("MainFrame");
 		}
-
-		public void AbortToDeskTop()
+		
+		public void ReturnToTechnicalDifficulty()
 		{
 			SetGameStateManager((int)GameStateManager.GameState.MailReading);
-			SceneManager.LoadScene("MainFrame");
+			SceneManager.LoadScene("TechnicalDifficulty");
+		}
+
+
+		void EndingChecking()
+		{
+			if (m_ProgressConfig.m_CurrentProgress >= m_EndingConfig.LastProgressNum)
+			{
+				if (m_ProgressConfig.TRexScore > m_ProgressConfig.StegosaursScore && m_ProgressConfig.TRexScore > m_ProgressConfig.PterosaursScore)
+				{
+					SetGameStateManager((int)GameStateManager.GameState.Ending);
+					SceneManager.LoadScene(m_EndingConfig.TRexEndingSceneName);
+				}
+				else if(m_ProgressConfig.StegosaursScore > m_ProgressConfig.TRexScore && m_ProgressConfig.StegosaursScore > m_ProgressConfig.PterosaursScore)
+				{
+					SetGameStateManager((int)GameStateManager.GameState.Ending);
+					SceneManager.LoadScene(m_EndingConfig.StegosaursEndingSceneName);
+				}
+				else if(m_ProgressConfig.PterosaursScore > m_ProgressConfig.TRexScore && m_ProgressConfig.PterosaursScore > m_ProgressConfig.StegosaursScore)
+				{
+					SetGameStateManager((int)GameStateManager.GameState.Ending);
+					SceneManager.LoadScene(m_EndingConfig.PterosaursEndingSceneName);
+				}
+			}
+		}
+
+		public void SpecialEmailStoredToShow(List<int> specialEmailID)
+		{
+			m_specialmailconfig._specialEmailToLoad = specialEmailID;
 		}
 
 	}

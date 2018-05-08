@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu (menuName = "EmailConfig")]
 [System.Serializable]
-public class EmailConfig : ScriptableObject {
+public class EmailConfig : ScriptableObject
+{
+
+	public List<int> _specialEmailToLoad;
 
 	[SerializeField] private List<string> _emailtitles;
 	public List<string> _Titles
@@ -22,9 +25,4 @@ public class EmailConfig : ScriptableObject {
 		get { return _emailBody; }
 	}
     
-	[SerializeField] private List<string> _levelName;
-	public List<string> _LevelName
-	{
-		get { return _levelName; }
-	}
 }

@@ -27,5 +27,16 @@ public class ProgressConfig : ScriptableObject
             }
         }
     }
+
+    public void ResetProgress()
+    {
+        m_CurrentProgress = 0;
+
+        TRexScore = 0;
+        StegosaursScore = 0; 
+        PterosaursScore = 0;
+        
+        FailureCount = 0;
+    }
 }
 

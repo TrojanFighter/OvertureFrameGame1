@@ -3,18 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Overture.Capcha
-{
-	public class Timer : MonoBehaviour
-	{
+namespace Overture.Captcha{
+
+	public class Timer : MonoBehaviour {
 
 		public static Timer instance = null;
-
 		Image timerImage;
-
-//	public float timer;
-//	float timeTotal;
-//	public bool timeIsUp =  false;
+	//	public float timer;
+	//	float timeTotal;
+	//	public bool timeIsUp =  false;
 		GameObject timerVisual;
 		float timeRemain;
 		float timeTotal;
@@ -22,32 +19,29 @@ namespace Overture.Capcha
 
 		void Awake()
 		{
-			if (instance == null)
-			{
+			if (instance == null) {
 				instance = this;
 				DontDestroyOnLoad(gameObject);
 
-			}
-			else if (instance != this)
-			{
-				Destroy(gameObject);
+			} else if (instance != this) {
+				Destroy (gameObject);
 			}
 		}
 
-		void Start()
+		void Start () 
 		{
 			timerImage = this.GetComponent<Image>();
-			timeTotal = GameObject.Find("Timer").GetComponent<TimerCountdown>().timeTotal;
+			timeTotal = GameObject.Find ("Timer").GetComponent<TimerCountdown> ().timeTotal;
 
 		}
 
-		void Update()
+		void Update () 
 		{
-			timeRemain = GameObject.Find("Timer").GetComponent<TimerCountdown>().timer;
-			Debug.Log(timeRemain);
+			timeRemain = GameObject.Find ("Timer").GetComponent<TimerCountdown> ().timer;
 			timerImage.fillAmount = timeRemain / timeTotal;
 
 		}
 
 	}
+
 }

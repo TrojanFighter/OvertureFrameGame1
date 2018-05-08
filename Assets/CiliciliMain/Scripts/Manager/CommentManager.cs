@@ -178,6 +178,7 @@ namespace Overture.CommentCensor
 
         public IEnumerator FinalEvaluation()
         {
+            Debug.Log(m_videoPlayer.frameCount+"  "+m_videoPlayer.frameRate);
             yield return new WaitForSeconds(m_videoPlayer.frameCount/m_videoPlayer.frameRate+extraTimeToWait);
             if (TRexScore > StegosaursScore && TRexScore > PterosaursScore)
             {

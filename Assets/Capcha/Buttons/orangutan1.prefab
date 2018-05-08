@@ -100,8 +100,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isSelected: 0
-  ButtonImageTag1: human
-  ButtonImageTag2: inferior
+  ButtonImageTag1: eat
+  ButtonImageTag2: 
   selectedObj: {fileID: 1893695014363612, guid: 22a64684c4c1f43bca7e1bf02887b915,
     type: 2}
   frame: {fileID: 0}

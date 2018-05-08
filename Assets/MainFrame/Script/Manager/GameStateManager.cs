@@ -11,14 +11,16 @@ namespace Overture.FrameGame
 		//Enum for our game states
 		public enum GameState
 		{
-			Reset=0,
-			MailReading,
+			
+			MailReading=0,
 			SavingProgress,
 			Gaming,
-			Restarting
+			Restarting,
+			Ending,
+			Reset,
 		};
 
-		public static GameState STATE = GameState.Reset;
+		public static GameState STATE = GameState.MailReading;
 
 		//Time since we entered this state
 		static float TIME;

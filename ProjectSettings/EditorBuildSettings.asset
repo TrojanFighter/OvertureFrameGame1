@@ -6,62 +6,53 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Capcha/Scenes/Captcha-Level01.unity
+    guid: 52e2c091aa07c55459a40ba9ec0920b1
+  - enabled: 1
+    path: Assets/Capcha/Scenes/Captcha-Level02.unity
+    guid: 1bbb1cfa071984421b274abfba6648a1
+  - enabled: 1
+    path: Assets/Capcha/Scenes/Captcha-Level03.unity
+    guid: c07e47417f71e4ef786e9e84954fcd46
+  - enabled: 1
+    path: Assets/Capcha/Scenes/Captcha-Level04.unity
+    guid: 19cd2d978282d4ecd88330e47b101f12
+  - enabled: 1
+    path: Assets/Capcha/Scenes/Captcha-Level05.unity
+    guid: af09502c6168d4991a425641d06c3da5
+  - enabled: 1
+    path: Assets/Capcha/Scenes/Captcha-Level06.unity
+    guid: 50022fa0d0cd44994b741acc0347b5ec
+  - enabled: 1
+    path: Assets/MainFrame/Scenes/TechnicalDifficulty.unity
+    guid: 9725dbacd7ef42a43a22e22111421ada
+  - enabled: 1
     path: Assets/MainFrame/Scenes/MainFrame.unity
     guid: 27ec158312872cc438bdc5811645babf
+  - enabled: 1
+    path: Assets/Capcha/Scenes/Captcha-Level07.unity
+    guid: b3e850a0e5f3249c7ac718e89795527c
+  - enabled: 1
+    path: Assets/Capcha/Scenes/Captcha-Level08.unity
+    guid: e1a7b14a436c7467a9e4b5126f496114
+  - enabled: 1
+    path: Assets/Capcha/Scenes/Captcha-Level09.unity
+    guid: cffef70a108b94a2897507027dd614f4
+  - enabled: 1
+    path: Assets/Capcha/Scenes/Captcha-Level10.unity
+    guid: ccd66c42d7cf14e0e996ade834ad782d
+  - enabled: 1
+    path: Assets/Capcha/Scenes/Captcha-Level11.unity
+    guid: ef405c7aa4db040879b5fb102350c7f7
+  - enabled: 1
+    path: Assets/CensorBar/Scenes/Censor Level 1.unity
+    guid: 162a517202d1049d9b1d56283589ee51
   - enabled: 1
     path: Assets/CiliciliMain/Scene/CensorA1.unity
     guid: beb8bf458ad453a41b69c194947225df
   - enabled: 1
-    path: Assets/CiliciliMain/Scene/CensorA2.unity
-    guid: f2c18086346e55b44bdb1bf6b810a2ae
-  - enabled: 1
-    path: Assets/CiliciliMain/Scene/CensorA3.unity
-    guid: ea4a61273a38ef542a1a45f37e8bf730
+    path: Assets/TextReplaceGame/Scene/TextReplace.unity
+    guid: f737365a252ec4ffea5b6224be2a4174
   - enabled: 1
     path: Assets/CiliciliMain/Scene/CensorB1.unity
     guid: 0646d5155ae39c84b954b6341dd7241b
-  - enabled: 1
-    path: Assets/CiliciliMain/Scene/CensorC1.unity
-    guid: 76e6d86e5265dd848a2d957fdcc4ecab
-  - enabled: 1
-    path: Assets/Capcha/Scenes/CapchaLevel00.unity
-    guid: d3992d6f3c7b24f7d8b2cb5476f87ec5
-  - enabled: 1
-    path: Assets/Capcha/Scenes/CapchaLevel01.unity
-    guid: 52e2c091aa07c55459a40ba9ec0920b1
-  - enabled: 1
-    path: Assets/Capcha/Scenes/CapchaLevel02.unity
-    guid: 1bbb1cfa071984421b274abfba6648a1
-  - enabled: 1
-    path: Assets/Capcha/Scenes/CapchaLevel03.unity
-    guid: c07e47417f71e4ef786e9e84954fcd46
-  - enabled: 1
-    path: Assets/Capcha/Scenes/CapchaLevel04.unity
-    guid: 19cd2d978282d4ecd88330e47b101f12
-  - enabled: 1
-    path: Assets/Capcha/Scenes/CapchaLevel05.unity
-    guid: a7f10c27b68764f35b7a78b3c2658543
-  - enabled: 1
-    path: Assets/Capcha/Scenes/CapchaLevel06.unity
-    guid: ee275a894c8364e7ba7bce50cf2250d8
-  - enabled: 1
-    path: Assets/Capcha/Scenes/CapchaLevel07.unity
-    guid: 01abb4b262ac34cc68bdf89d59be9b32
-  - enabled: 1
-    path: Assets/Capcha/Scenes/CapchaLevel08.unity
-    guid: befdbdf48d2574ac584b6ae0bcbfbeef
-  - enabled: 1
-    path: Assets/Capcha/Scenes/CapchaLevel09.unity
-    guid: e1334975fede244a28302f436ca34c2d
-  - enabled: 1
-    path: Assets/Capcha/Scenes/CapchaLevel10.unity
-    guid: a0264d41145ab4ae6865a39e4d3abb3b
-  - enabled: 1
-    path: Assets/Capcha/Scenes/CapchaLevel11.unity
-    guid: 3ac6eeb599ae448949d64bc8737ef800
-  - enabled: 1
-    path: Assets/Capcha/Scenes/CapchaFinal.unity
-    guid: e5f20ecb691b44663aafe2b81cf44c60
-  - enabled: 1
-    path: Assets/SampleMiniGame/Scene/a1.unity
-    guid: 788d8cafaeb64dd44b1bc1d100b2d9fa

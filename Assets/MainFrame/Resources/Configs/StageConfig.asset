@@ -17,9 +17,11 @@ MonoBehaviour:
   - 2
   - 3
   - 4
+  - 5
   _levelScene:
-  - a1
-  - CensorA2
-  - CensorA3
-  - CensorB1
-  - CensorC1
+  - Captcha-Level07
+  - Censor Level 1
+  - CensorA1
+  - TechnicalDifficulty
+  - TextReplace
+  - Censor Level 2

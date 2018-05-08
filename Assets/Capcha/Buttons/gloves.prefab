@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 61120301423164418}
   m_Layer: 0
   m_Name: gloves
-  m_TagString: Untagged
+  m_TagString: button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

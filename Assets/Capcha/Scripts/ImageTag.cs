@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Overture.Capcha
-{
-	public class ImageTag : MonoBehaviour
-	{
+namespace Overture.Captcha{
+
+	public class ImageTag : MonoBehaviour {
 
 		public bool isSelected = false;
 		public string ButtonImageTag1;
@@ -14,32 +13,26 @@ namespace Overture.Capcha
 		public GameObject frame;
 
 
-		void OnMouseDown()
-		{
+		void OnMouseDown() {
 
-			isSelectedRun();
+			isSelectedRun ();
 		}
 
 		//Instantiate the frame around selected buttons
-		void isSelectedRun()
-		{
+		void isSelectedRun() {
 
-			if (isSelected == false)
-			{
+			if (isSelected == false){
 				isSelected = true;
-				if (frame == null)
-				{
-					frame = Instantiate(selectedObj, this.gameObject.transform);
+				if (frame == null) {
+					frame = Instantiate (selectedObj, this.gameObject.transform);
 					frame.transform.localPosition = Vector3.zero;
 				}
 			}
-			else
-			{
+			else {
 				isSelected = false;
-				if (frame != null)
-				{
-					Destroy(frame);
-				}
+				if (frame != null) {
+					Destroy (frame);
+				}	
 			}
 		}
 	}

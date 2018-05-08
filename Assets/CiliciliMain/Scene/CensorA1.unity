@@ -595,8 +595,20 @@ Prefab:
         type: 2}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: 8e2a05294ae34424b9cc000bd406a7e1,
+      objectReference: {fileID: 32900000, guid: 850b4c9c1da55d6429b4738a45b62fdf,
         type: 3}
+    - target: {fileID: 4270094355778452, guid: d33ff0576684c774eabd4c8bec93afa8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.126
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270094355778452, guid: d33ff0576684c774eabd4c8bec93afa8, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.2500018
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270094355778452, guid: d33ff0576684c774eabd4c8bec93afa8, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.80987525
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d33ff0576684c774eabd4c8bec93afa8, type: 2}
   m_IsPrefabParent: 0
