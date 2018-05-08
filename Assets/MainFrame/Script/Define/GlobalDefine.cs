@@ -13,6 +13,15 @@ public class EmailContent
     public Sprite BODY_IMG;
 }
 
+public enum EndingState
+{
+    TRex,
+    STEGOSARUS,
+    PTEROSAUR,
+    FAILURE
+}
+
+
 public class StageContent
 {
     public int stageNum;

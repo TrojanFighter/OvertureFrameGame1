@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11087e9fb01be2f49a15dffd51b132d7, type: 3}
+  m_Name: EndingEmailConfig
+  m_EditorClassIdentifier: 
+  _specialEmailToLoad: 
+  _emailtitles:
+  - 
+  - 
+  - 
+  - 
+  _senderName:
+  - 
+  - 
+  - 
+  - 
+  _emailBody:
+  - "Employees,  As CEO of DDB TV for over ten years, it pains me to announce that
+    I will be retiring from my position by the end of this year\u2026 TO RUN FOR PRESIDENT!
+    That\u2019s right everyone! I am leaving DDB to pursue even greater success as
+    a politician. Be sure to vote for me when election day comes! My friends and I
+    got a feeling that it\u2019ll be a piece of cake. When you\u2019re at the ballot
+    box this November, remember to vote for your old pal, Ry-URR-n!  [SIGNATURE.JPEG]
+    -- Ry-URRR-n Ryanson    DDE TV CEO    Republican Presidential nominee "
+  - "Hey all,  In light of Mr. Ryanson\u2019s recent performance review, as well as
+    the office chirophilia scandal that was leaked to the public, I would like to
+    announce my temporary move to interim CEO of DDE Television. I know this must
+    come to a shock to a number of employees, but as the one closest within Mr. Ryanson\u2019s
+    inner circle, I was decided to be the most capable dino to watch over the company
+    during this transition.   Chad Genesis 1:31-35 Go Raptors! Stegosarus and proud "
+  - 
+  - 

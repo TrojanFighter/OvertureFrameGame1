@@ -32,5 +32,10 @@ namespace Overture.FrameGame
 			StoredFailureCount = 0;
 			hasExtractedScore = true;
 		}
+		
+		public static void SpecialEmailStoredToShow(List<int> specialEmailID)
+		{
+			extraEmailsToLoad = specialEmailID;
+		}
 	}
 }

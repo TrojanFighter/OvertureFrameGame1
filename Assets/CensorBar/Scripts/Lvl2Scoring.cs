@@ -91,17 +91,17 @@ namespace Overture.CensorBar
 				{
 					//finalScore.ModifyScoreTSP(-1, 0, 1);
 					GameSaveManager.StoreScore(-1,0,1,0);
-					SceneManager.LoadScene("MainFrame");
+					SceneManager.LoadScene("EndingScene");
 				}
 				else if (FailFrames >= 1200)
 				{
 					GameSaveManager.StoreScore(1,0,-1,1);
-					SceneManager.LoadScene("TechnicalDifficulty");
+					SceneManager.LoadScene("TechnicalDifficultyEnding");
 				}
 				else
 				{
 					GameSaveManager.StoreScore(1,0,-1,0);
-					SceneManager.LoadScene("MainFrame");
+					SceneManager.LoadScene("EndingScene");
 				}
 
 			}

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: ProgressConfig
   m_EditorClassIdentifier: 
   m_CurrentProgress: 0
-  TRexScore: 0
-  StegosaursScore: 0
-  PterosaursScore: 0
-  FailureCount: 0
+  TRexScore: 1
+  StegosaursScore: 2
+  PterosaursScore: -1
+  FailureCount: 1
   FailureTolerance: 6
