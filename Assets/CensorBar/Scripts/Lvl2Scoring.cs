@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Overture.FrameGame;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
 namespace Overture.CensorBar
@@ -20,7 +22,7 @@ namespace Overture.CensorBar
 		{
 			isCovering = false;
 			FailFrames = 0;
-			_video = GameObject.Find("Screen").GetComponent<VideoPlayerMonitor>().m_videoPlayer;
+			_video = GameObject.Find("Screen").GetComponent<VideoDisplay>().m_videoPlayer;
 			_noPantsTime = false;
 
 		}
@@ -82,21 +84,25 @@ namespace Overture.CensorBar
 
 		private void CheckForEnd()
 		{
-			if (_video.frame == 3814)
+			if (_video.frame >= 3814)
 			{
 				isCovering = true;
-//				if (FailFrames > 900 && FailFrames < 1200)
-//				{
-//					finalScore.ModifyScoreTSP(-1, 0, 1);
-//				}
-//				else if (FailFrames >= 1200)
-//				{
-//					finalScore.TriggerFail();
-//				}
-//				else
-//				{
-//					finalScore.ModifyScoreTSP(1, 0, -1);
-//				}
+				if (FailFrames > 900 && FailFrames < 1200)
+				{
+					//finalScore.ModifyScoreTSP(-1, 0, 1);
+					GameSaveManager.StoreScore(-1,0,1,0);
+					SceneManager.LoadScene("MainFrame");
+				}
+				else if (FailFrames >= 1200)
+				{
+					GameSaveManager.StoreScore(1,0,-1,1);
+					SceneManager.LoadScene("TechnicalDifficulty");
+				}
+				else
+				{
+					GameSaveManager.StoreScore(1,0,-1,0);
+					SceneManager.LoadScene("MainFrame");
+				}
 
 			}
 			else

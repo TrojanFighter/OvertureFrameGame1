@@ -136,7 +136,7 @@ namespace Overture.FrameGame
 		{
 			if (EmailProgressNum >= m_config._LevelEmailID.Count)
 			{
-				EndingChecking();
+				//EndingChecking();
 			}
 			
 			if (m_specialmailconfig._specialEmailToLoad.Count > 0)
@@ -144,11 +144,11 @@ namespace Overture.FrameGame
 				for (int i = 0; i < m_specialmailconfig._specialEmailToLoad.Count; i++)
 				{
 				
-					Debug.Log(m_specialmailconfig._Titles[i]+" "+ m_specialmailconfig._SenderName[i]+""+m_specialmailconfig._EmailBody[i]);
+					Debug.Log(m_specialmailconfig._Titles[m_specialmailconfig._specialEmailToLoad[i]]+" "+ m_specialmailconfig._SenderName[m_specialmailconfig._specialEmailToLoad[i]]+""+m_specialmailconfig._EmailBody[m_specialmailconfig._specialEmailToLoad[i]]);
 					EmailContent emailContent=new EmailContent();
-					emailContent.TITLE = m_specialmailconfig._Titles[i];
-					emailContent.SENDER = m_specialmailconfig._SenderName[i];
-					emailContent.BODY_TEXT = m_specialmailconfig._EmailBody[i];
+					emailContent.TITLE = m_specialmailconfig._Titles[m_specialmailconfig._specialEmailToLoad[i]];
+					emailContent.SENDER = m_specialmailconfig._SenderName[m_specialmailconfig._specialEmailToLoad[i]];
+					emailContent.BODY_TEXT = m_specialmailconfig._EmailBody[m_specialmailconfig._specialEmailToLoad[i]];
 							
 					m_EmailManager.FillInEmail(emailContent);
 				}

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
+using UnityEngine.SceneManagement;
 
 namespace Overture.CensorBar
 {
@@ -18,6 +19,7 @@ namespace Overture.CensorBar
 		float curTime;
 		bool newClip = true;
 		public float frameDiff = 3.3f;
+		private string scene;
 
 		void InitNewClip(string anim, VideoClip clip)
 		{
@@ -33,6 +35,7 @@ namespace Overture.CensorBar
 		void Start()
 		{
 			animator_component = GetComponent<Animator>();
+			scene = SceneManager.GetActiveScene().name;
 		}
 
 		void Update()
@@ -49,7 +52,9 @@ namespace Overture.CensorBar
 			else
 			{
 				newClip = false;
-				InitNewClip("Target1", video_player.clip);
+				if (scene == "Censor Level 1") InitNewClip("Lvl1Target", video_player.clip);
+				if (scene == "Censor Level 2") InitNewClip("Lvl2Target", video_player.clip);
+				
 			}
 		}
 	}
