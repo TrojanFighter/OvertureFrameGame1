@@ -64,6 +64,15 @@ MonoBehaviour:
     audiences will appreciate your efforts. No one will ever know what you\u2019re
     doing, but it\u2019s the thought that counts. I meean, as a T-Rex, I think it\u2019s
     stupid we even have someone doing this. But that\u2019s just me.  "
+  - Censor Bar Result
+  - "Hewwooooooo! I\u2019m noticing that you still haven\u2019t signed up for life
+    insurance yet? We really DO need that before we can send you your pay, so please
+    fill it out! Or else I can\u2019t pay you, dear! It really is your own fault if
+    groceries are a bit tight this week, haha!  If you need someone to help read it
+    to you, or explain it to you, let me know, ok? We offer accommodations for all...skill
+    levels here.  Also, I\u2019ve received your complaint about harassment. I\u2019ll
+    be in touch later. Bronto-bore-YOU ;) "
+  - Comment Mod Result
   - 'Are your horns making you feel inadequate? Your teeth not shiny as they used
     to be? It happens to dinosaurs all over the world but there is a new FDA approved
     experimental drug that is guaranteed to enlongate your old horns and whiten your
@@ -88,8 +97,13 @@ MonoBehaviour:
     of our T-Rex clients that the whole thing was an experiment to attract Stegosarus
     audiences. If marketing come to my office I\u2019m going to push them over to
     you so you can explain why everything got fucked up"
-  - 
-  - 'HR Email #4'
+  - "Human! Human! I have some good news for you. I\u2019ve spoken with the velociraptor
+    who kept threatening to eat you, Gary, great guy, and I got him to admit he did
+    it! Aren\u2019t you proud of me? So, next, we\u2019re gonna need you to engage
+    in mandatory sensitivity training, to help prepare you for those kind of comments.
+    After that, they shouldn\u2019t hurt anymore! It\u2019s important to fit into
+    the company culture.  By the way, the casual fall formal mixer BLASTATHON is coming
+    up! I hope you have a date in mind?  Wear something cute!, Bronto-bore-us "
   - "Ry-urr-n just fired my girlfriend! What the fuck?!!! Apparently he has some rule
     about no human makeup products? She just had a dented scale, thought a little
     concealer could help! TOO FAR! I\u2019m going to Bronto-bore-us, you with me? "
@@ -112,7 +126,8 @@ MonoBehaviour:
     heads up the other day about Ry-URR-n, that guy\u2019s a jerk. I owe you one (He
     nearly got a chunk of me), let me know if you need anything. Us corporate drones
     gotta stick together, right?  "
-  - Boss Email Mesomind
+  - News type result
+  - Boss Email Mesomind intro
   - "Man, man, mannnn! The meeting with Ry-urr-n did NOT go well. Little disappointed
     you weren\u2019t there, bro! I get it, I get it, you\u2019re new though. You\u2019re
     scared. Plus you\u2019re a polydacty- I mean, human. It must be rough for you.
@@ -120,15 +135,17 @@ MonoBehaviour:
     TOMORROW. We are gonna STRIKE until this office gets some fairer conditions and
     an actual competent HR manager.  We need some sign-holders. Don\u2019t let me
     down, dude!  See you TOMORROW, OUTSIDE! "
-  - "Human, I heard that you invited a duckbill to the fall formal? That\u2019s not
+  - " Human, I heard that you invited a duckbill to the fall formal? That\u2019s not
     allowed! Maybe it\u2019s my fault? Was I not clear enough?  The fall formal is
     a human only activity! We get you all dressed up in those cute little outfits
     and pair you up with each other and take pictures! It\u2019s so cute :3! The dinosaur
     employees are only there to observe, not participate.  Jim\u2019s decided not
     to complain about you asking him, though, so you\u2019re fine for now. Lucky you!
     \ Try to be careful about office etiquette for as long as you still work here,
-    ok?  "
-  - 
+    ok?  Formally, Ms. Bronto-bore-us "
+  - Boss Email Valley Result
+  - Mesomind Result
+  - Ending?
   _levelName:
   - cc
   - safsda
