@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11087e9fb01be2f49a15dffd51b132d7, type: 3}
   m_Name: EmailConfig
   m_EditorClassIdentifier: 
+  _specialEmailToLoad: 
   _emailtitles:
   - aaa
   - bbb
@@ -20,19 +21,19 @@ MonoBehaviour:
   - fff
   _senderName:
   - 'From: Ry-URR-n Ryanson, CEO'
-  - 'From: Ms. Bronto-BORE-us, Human Resources'
+  - 'From: Ms. Bronto-BORE-us, HR'
   - 'From: CAPCHA NOTICE'
   - 'From: Ry-URR-n Ryanson, CEO'
-  - 'From: Ms. Bronto-BORE-us, Human Resources'
-  - 'From: Ms. Bronto-BORE-us, Human Resources'
+  - 'From: Ms. Bronto-BORE-us, HR'
+  - 'From: Ms. Bronto-BORE-us, HR'
   - 'From: Ry-URR-n Ryanson, CEO'
   - 'From: Ry-URR-n Ryanson, CEO'
-  - 'From: Ms. Bronto-BORE-us, Human Resources'
+  - 'From: Ms. Bronto-BORE-us, HR'
   - 'From: Ry-URR-n Ryanson, CEO'
   - 'From: giantunit@bigdino.com'
   - 'From: Terry Pterosaur, Acquisitions'
   - 'From: Ry-URR-n Ryanson, CEO'
-  - 'From: Ms. Bronto-BORE-us, Human Resources'
+  - 'From: Ms. Bronto-BORE-us, HR'
   - 'From: Terry Pterosaur, Acquisitions'
   - 'From: Ry-URR-n Ryanson, CEO'
   - 'From: Ry-URR-n Ryanson, CEO'
@@ -40,7 +41,7 @@ MonoBehaviour:
   - 'From: Ry-URR-n Ryanson, CEO'
   - 'From: Ry-URR-n Ryanson, CEO'
   - 'From: Terry Pterosaur, Acquisitions'
-  - 'From: Ms. Bronto-BORE-us, Human Resources'
+  - 'From: Ms. Bronto-BORE-us, HR'
   - 'From: Ry-URR-n Ryanson, CEO'
   - 'From: Ry-URR-n Ryanson, CEO'
   - Ending
@@ -183,10 +184,3 @@ MonoBehaviour:
   - Boss Email Valley Result
   - Mesomind Result
   - Ending?
-  _levelName:
-  - cc
-  - safsda
-  - sdfasaf
-  - safd
-  - safd
-  - asdf
