@@ -134,10 +134,6 @@ namespace Overture.FrameGame
 
 		void ShowCurrentMail()
 		{
-			if (EmailProgressNum >= m_config._LevelEmailID.Count)
-			{
-				//EndingChecking();
-			}
 			
 			if (m_specialmailconfig._specialEmailToLoad.Count > 0)
 			{
