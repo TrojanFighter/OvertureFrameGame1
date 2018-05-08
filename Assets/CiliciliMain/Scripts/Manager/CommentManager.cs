@@ -196,7 +196,7 @@ namespace Overture.CommentCensor
                 GameSaveManager.StoreScore(0,0,1,FailureCount);
                 //Overture.FrameGame.FrameGameManager.Instance.SubmitScore(0,0,1,FailureCount);
             }
-
+            GameStateManager.STATE = GameStateManager.GameState.MailReading;
             SceneManager.LoadScene ("MainFrame");
             //Overture.FrameGame.FrameGameManager.Instance.ReturnToDesktop();
         }
