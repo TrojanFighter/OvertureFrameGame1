@@ -27,7 +27,7 @@ namespace Overture.Captcha{
 		void Start () {
 		
 			// Reading the file into string.
-			string levelString = File.ReadAllText(Application.dataPath + Path.DirectorySeparatorChar + levelFile);
+			string levelString = File.ReadAllText(Application.streamingAssetsPath + Path.DirectorySeparatorChar + levelFile);
 
 			// Splitting the string into lines.
 			string[] levelLines = levelString.Split('\n');
