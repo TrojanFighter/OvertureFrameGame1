@@ -65,9 +65,8 @@ MonoBehaviour:
   - 'From: Ry-URR-n Ryanson, CEO'
   - 'From: giantunit@bigdino.com'
   _emailBody:
-  - "Welcome to the first day on the job, [EMPLOYEE FIRST NAME].\n 
-
-	I am so excited to have you on our team! You and your set of \u201Cskills\u201D are a valuable
+  - "Welcome to the first day on the job, [EMPLOYEE FIRST NAME].\n\nI am so excited
+    to have you on our team! You and your set of \u201Cskills\u201D are a valuable
     addition to our company, and we hope you enjoy your time working for us!  As a
     junior content creator, your job is to use your unique \u201Cskills\u201D and
     apply them to our state of the art censorshi- I mean, curation software. We have
@@ -78,8 +77,7 @@ MonoBehaviour:
     feel free to contact our HR representative, [CURRENT HR REP FIRST NAME] at [HR
     EMAIL]  Just remember our company policy: APE. ALWAYS. PLEASE. EVERYBODY. Remember,
     APE. Like you!   [SIGNATURE.JPEG] -- Ry-URRR-n Ryanson    DDE TV CEO "
-  - "Hey, new hire! \n 
-	We\u2019re so happy to have you join our junior content curation
+  - "Hey, new hire! \n We\u2019re so happy to have you join our junior content curation
     team today. I know you have dreams of creating one day, but we do have to start
     small (like you :D!) And this position is just perfect for you, what with those
     useful little thumbys of yours.  I know you got the spiel already- didn\u2019t
@@ -125,11 +123,7 @@ MonoBehaviour:
     levels here.  Also, I\u2019ve received your complaint about harassment. I\u2019ll
     be in touch later. Bronto-bore-YOU ;) "
   - People on the internet are bastards, aren't they? Great job.
-  - 'Are your horns making you feel inadequate? Your teeth not shiny as they used
-    to be? It happens to dinosaurs all over the world but there is a new FDA approved
-    experimental drug that is guaranteed to enlongate your old horns and whiten your
-    teeth to a BILLIANT shine. The ladies will not be resisting your HUGE assets forever  CLICK
-    HERE FOR CHEAP DRUGS http://www.enlongmentpills.net '
+  - PLACEHOLDER
   - "Hey new hire,  Terry from acquisitions here. I know, I know. Random pterosaur
     messaging you on your first day? No worries, I\u2019m not gonna fly off with you,
     haha. I\u2019m just putting together a karaoke get-together tonight, was wondering
@@ -159,18 +153,7 @@ MonoBehaviour:
   - "Ry-urr-n just fired my girlfriend! What the fuck?!!! Apparently he has some rule
     about no human makeup products? She just had a dented scale, thought a little
     concealer could help! TOO FAR! I\u2019m going to Bronto-bore-us, you with me? "
-  - "You\u2019re going to be on the news beat today. You know Chet Growlmnd? Great
-    person, lots of charisma, brain the size of a peanut, which is perfect, since
-    they\u2019ll basically say anything they read on the teleprompter without thinking
-    about it. Bad news is, this got out somehow into the world and now some kids hacked
-    the teleprompter. Thankfully we got the boys over in IT to cook up something to
-    take care of it. Just use the keyboard to input the green words, you\u2019ll know
-    when you\u2019ve replaced a problem word when it turns blue.   Just do your job
-    and it\u2019ll look like nothing happened. If you don\u2019t\u2026 Well, other
-    than me having you over for dinner for a stern talking to, We have to tell all
-    of our T-Rex clients that the whole thing was an experiment to attract Stegosarus
-    audiences. If marketing come to my office I\u2019m going to push them over to
-    you so you can explain why everything got fucked up"
+  - PLACEHOLDER
   - "Time again for your favorite activity: moderating user comments! This time they\u2019re
     gonna be watching some old human flick about dinosaurs and cowboys, I don\u2019t
     give a shit. But be prepared for some offended assholes out there. Those T-Rexes
@@ -194,7 +177,7 @@ MonoBehaviour:
     TOMORROW. We are gonna STRIKE until this office gets some fairer conditions and
     an actual competent HR manager.  We need some sign-holders. Don\u2019t let me
     down, dude!  See you TOMORROW, OUTSIDE! "
-  - " Human, I heard that you invited a duckbill to the fall formal? That\u2019s not
+  - "Human, I heard that you invited a duckbill to the fall formal? That\u2019s not
     allowed! Maybe it\u2019s my fault? Was I not clear enough?  The fall formal is
     a human only activity! We get you all dressed up in those cute little outfits
     and pair you up with each other and take pictures! It\u2019s so cute :3! The dinosaur
