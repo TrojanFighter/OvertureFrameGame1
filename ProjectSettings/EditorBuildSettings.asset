@@ -68,3 +68,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainFrame/Scenes/EndingScene.unity
     guid: cf72b125dc45fff498f9a80b83950d7e
+  - enabled: 1
+    path: Assets/MainFrame/Scenes/Commercial.unity
+    guid: 349a003d8bfd06648b588df9ccfb1992
