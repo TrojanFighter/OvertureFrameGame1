@@ -65,8 +65,9 @@ MonoBehaviour:
   - 'From: Ry-URR-n Ryanson, CEO'
   - 'From: giantunit@bigdino.com'
   _emailBody:
-  - "Welcome to the first day on the job, [EMPLOYEE FIRST NAME]. \n I am so excited
-    to have you on our team! You and your set of \u201Cskills\u201D are a valuable
+  - "Welcome to the first day on the job, [EMPLOYEE FIRST NAME].\n 
+
+	I am so excited to have you on our team! You and your set of \u201Cskills\u201D are a valuable
     addition to our company, and we hope you enjoy your time working for us!  As a
     junior content creator, your job is to use your unique \u201Cskills\u201D and
     apply them to our state of the art censorshi- I mean, curation software. We have
@@ -77,7 +78,8 @@ MonoBehaviour:
     feel free to contact our HR representative, [CURRENT HR REP FIRST NAME] at [HR
     EMAIL]  Just remember our company policy: APE. ALWAYS. PLEASE. EVERYBODY. Remember,
     APE. Like you!   [SIGNATURE.JPEG] -- Ry-URRR-n Ryanson    DDE TV CEO "
-  - "Hey, new hire! \n We\u2019re so happy to have you join our junior content curation
+  - "Hey, new hire! \n 
+	We\u2019re so happy to have you join our junior content curation
     team today. I know you have dreams of creating one day, but we do have to start
     small (like you :D!) And this position is just perfect for you, what with those
     useful little thumbys of yours.  I know you got the spiel already- didn\u2019t
