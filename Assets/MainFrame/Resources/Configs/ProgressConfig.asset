@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72fb325fa1606f1439eac5ac9cddcc66, type: 3}
   m_Name: ProgressConfig
   m_EditorClassIdentifier: 
-  m_CurrentProgress: 5
+  m_CurrentProgress: 0
   TRexScore: 0
   StegosaursScore: 0
   PterosaursScore: 0
