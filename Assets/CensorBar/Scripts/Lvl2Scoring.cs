@@ -84,38 +84,50 @@ namespace Overture.CensorBar
 
 		private void CheckForEnd()
 		{
-			if (_video.frame >= 3814)
+			Debug.Log("Ending");
+			//if (_video.frame >= 3813)
 			{
 				isCovering = true;
 				if (FailFrames > 900 && FailFrames < 1200)
 				{
+					Debug.Log("Ending1");
 					//finalScore.ModifyScoreTSP(-1, 0, 1);
 					GameSaveManager.StoreScore(-1,0,1,0);
 					SceneManager.LoadScene("EndingScene");
 				}
 				else if (FailFrames >= 1200)
 				{
+					Debug.Log("Ending2");
 					GameSaveManager.StoreScore(1,0,-1,1);
 					SceneManager.LoadScene("TechnicalDifficultyEnding");
 				}
 				else
 				{
+					Debug.Log("Ending3");
 					GameSaveManager.StoreScore(1,0,-1,0);
 					SceneManager.LoadScene("EndingScene");
 				}
 
 			}
-			else
+			/*else
 			{
 				CheckForPants();
-			}
+			}*/
 		}
 
 		// Update is called once per frame
 		void Update()
 		{
+			//Debug.Log("_video.frame: "+_video.frame);
 			if (!isCovering && _video.frame > 90) FailFrames++;
-			CheckForEnd();
+			if (Time.timeSinceLevelLoad>_video.clip.length&& !_video.isPlaying)
+			{
+				CheckForEnd();
+			}
+			else
+			{
+				CheckForPants();
+			}
 		}
 	}
 }
