@@ -4,6 +4,7 @@ using Overture.FrameGame;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
+using UnityEngine.UI;
 
 namespace Overture.CensorBar
 {
@@ -16,6 +17,8 @@ namespace Overture.CensorBar
 		public int FailFrames;
 		private VideoPlayer _video;
 		private bool _noPantsTime;
+		private Image _fineUI;
+		private Image _gtfoUI;
 
 		// Use this for initialization
 		void Start()
@@ -23,7 +26,10 @@ namespace Overture.CensorBar
 			isCovering = false;
 			FailFrames = 0;
 			_video = GameObject.Find("Screen").GetComponent<VideoDisplay>().m_videoPlayer;
+			_fineUI = GameObject.Find("Fine Image").GetComponent<Image>();
+			_gtfoUI = GameObject.Find("GTFO Image").GetComponent<Image>();
 			_noPantsTime = false;
+			_gtfoUI.enabled = false;
 
 		}
 
@@ -58,6 +64,9 @@ namespace Overture.CensorBar
 			{
 				isCovering = false;
 			}
+			
+			_fineUI.enabled = false;
+			_gtfoUI.enabled = true;
 		}
 
 		private void CheckForPants()
@@ -79,6 +88,8 @@ namespace Overture.CensorBar
 			else
 			{
 				_noPantsTime = false;
+				_fineUI.enabled = true;
+				_gtfoUI.enabled = false;
 			}
 		}
 
