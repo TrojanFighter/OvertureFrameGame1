@@ -308,6 +308,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114003810157306126
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -554,6 +555,7 @@ MonoBehaviour:
   stateInited: 0
   m_EndingState: 0
   m_EmailManager: {fileID: 114262701251883606}
+  firstSceneName: Captcha-Level01
 --- !u!114 &114649367001467458
 MonoBehaviour:
   m_ObjectHideFlags: 1

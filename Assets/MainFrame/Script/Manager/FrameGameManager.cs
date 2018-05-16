@@ -23,6 +23,8 @@ namespace Overture.FrameGame
 
 		public GameObject m_ProceedToWorkButton, m_OnAirAlert;
 
+		public string firstSceneName;
+
 		public override void Awake()
 		{
 			base.Awake();
@@ -65,16 +67,16 @@ namespace Overture.FrameGame
 			GameStateManager.GameState GAME_STATE = GameStateManager.STATE;
 
 			//Always be able to reset
-			//if (Input.GetKeyDown(KeyCode.R))
+			if (Input.GetKey(KeyCode.Alpha1)&&Input.GetKey(KeyCode.Alpha9))
 			{
-				//Restart();
+				GAME_STATE = GameStateManager.GameState.Reset;
 			}
 
 			//Handle each game state
 			switch (GAME_STATE)
 			{
 				case GameStateManager.GameState.Reset:
-					//Increment our week number
+					
 					EmailProgressNum = 0;
 					m_ProgressConfig.m_CurrentProgress = EmailProgressNum;
 					m_ProgressConfig.FailureCount = 0;
@@ -85,6 +87,8 @@ namespace Overture.FrameGame
 						
 
 					GameStateManager.SetCurrentState(GameStateManager.GameState.MailReading);
+					
+					SceneManager.LoadScene(firstSceneName);
 
 					break;
 				case GameStateManager.GameState.MailReading:

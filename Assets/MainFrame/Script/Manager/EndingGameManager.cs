@@ -20,6 +20,8 @@ namespace Overture.FrameGame
 		public EndingState m_EndingState= EndingState.TRex;
 
 		public EmailManager m_EmailManager;
+		
+		public string firstSceneName;
 
 
 		public override void Awake()
@@ -181,6 +183,28 @@ namespace Overture.FrameGame
 							
 			m_EmailManager.FillInEmail(emailContent);
 
+		}
+
+		void Update()
+		{
+			GameStateManager.GameState GAME_STATE = GameStateManager.STATE;
+
+			//Always be able to reset
+			if (Input.GetKey(KeyCode.Alpha1)&&Input.GetKey(KeyCode.Alpha9))
+			{
+				GAME_STATE = GameStateManager.GameState.Reset;
+				m_ProgressConfig.m_CurrentProgress = 0;
+				m_ProgressConfig.FailureCount = 0;
+				m_ProgressConfig.TRexScore = 0;
+				m_ProgressConfig.StegosaursScore = 0;
+				m_ProgressConfig.PterosaursScore = 0;
+				GameSaveManager.ClearStoredScore();
+				GameStateManager.SetCurrentState(GameStateManager.GameState.MailReading);
+				
+				SceneManager.LoadScene(firstSceneName);
+			}
+
+			
 		}
 	}
 }
