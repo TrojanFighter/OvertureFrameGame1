@@ -61,10 +61,10 @@ namespace Overture.CensorBar
 
             if (scene == "Censor Level 1")
             {
-                failSeconds = lvl1ScoringScript.FailFrames / 60;
+                failSeconds = lvl1ScoringScript.FailFrames / 6;
             } else if (scene == "Censor Level 2")
             {
-                failSeconds = lvl2ScoringScript.FailFrames / 60;
+                failSeconds = lvl2ScoringScript.FailFrames / 6;
             }
             
         //Debug.Log(failSeconds);
