@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -331,6 +331,43 @@ Prefab:
         type: 2}
       propertyPath: m_SizeDelta.x
       value: -17
+      objectReference: {fileID: 0}
+    - target: {fileID: 224343813861979638, guid: 7c2eb2b8c2f8d4941b63723e10c828f8,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000020680875
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557506741489920, guid: 7c2eb2b8c2f8d4941b63723e10c828f8, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181862078850610, guid: 7c2eb2b8c2f8d4941b63723e10c828f8, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1752823274657544, guid: 7c2eb2b8c2f8d4941b63723e10c828f8, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553243025423064, guid: 7c2eb2b8c2f8d4941b63723e10c828f8, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1284753946961078, guid: 7c2eb2b8c2f8d4941b63723e10c828f8, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1197148405252504, guid: 7c2eb2b8c2f8d4941b63723e10c828f8, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360136148769796, guid: 7c2eb2b8c2f8d4941b63723e10c828f8, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981809809104400, guid: 7c2eb2b8c2f8d4941b63723e10c828f8, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c2eb2b8c2f8d4941b63723e10c828f8, type: 2}
@@ -634,6 +671,36 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.80987525
       objectReference: {fileID: 0}
+    - target: {fileID: 23198455572705448, guid: d33ff0576684c774eabd4c8bec93afa8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23768457340096870, guid: d33ff0576684c774eabd4c8bec93afa8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23534911958529174, guid: d33ff0576684c774eabd4c8bec93afa8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23728399612115774, guid: d33ff0576684c774eabd4c8bec93afa8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23606945447380110, guid: d33ff0576684c774eabd4c8bec93afa8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23753160669420996, guid: d33ff0576684c774eabd4c8bec93afa8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d33ff0576684c774eabd4c8bec93afa8, type: 2}
   m_IsPrefabParent: 0
@@ -739,6 +806,16 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 563063917}
+    - target: {fileID: 114938870428221318, guid: 2a517f19ed814f64bb8509ac4e930067,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114377123686347944, guid: 2a517f19ed814f64bb8509ac4e930067,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a517f19ed814f64bb8509ac4e930067, type: 2}
   m_IsPrefabParent: 0
