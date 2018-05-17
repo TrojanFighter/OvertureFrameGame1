@@ -18,7 +18,7 @@ namespace Overture.TextReplacement
 		}
 
 		// Update is called once per frame
-		void Update()
+		void FixedUpdate()
 		{
 			gametimer += 1;
 
@@ -37,7 +37,7 @@ namespace Overture.TextReplacement
 				moveSpeed = 0.12f;
 			}
 
-			transform.Translate(-moveSpeed * Time.deltaTime * 60, 0, 0); //sets text to move
+			transform.Translate(-moveSpeed * Time.fixedDeltaTime * 60, 0, 0); //sets text to move
 
 		}
 	}
