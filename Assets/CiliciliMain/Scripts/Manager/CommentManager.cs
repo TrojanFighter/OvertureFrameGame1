@@ -104,8 +104,8 @@ namespace Overture.CommentCensor
         {
             foreach (float commentTime in m_CommentReferenceDictionary.Keys)
             {
-                //if (Mathf.Abs(commentTime - Time.fixedTime) < Time.fixedDeltaTime / 2)
-                if (Mathf.Abs(commentTime - (float)m_videoPlayer.time) < Time.fixedDeltaTime / 2)    
+                if (Mathf.Abs(commentTime - Time.fixedTime) < Time.fixedDeltaTime / 2)
+                //if (Mathf.Abs(commentTime - (float)m_videoPlayer.time) < Time.fixedDeltaTime / 2)    
                 {
                     LaunchComment(m_CommentReferenceDictionary[commentTime]);
                 }
