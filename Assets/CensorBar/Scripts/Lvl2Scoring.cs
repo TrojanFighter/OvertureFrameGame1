@@ -104,18 +104,21 @@ namespace Overture.CensorBar
 					Debug.Log("Ending1");
 					//finalScore.ModifyScoreTSP(-1, 0, 1);
 					GameSaveManager.StoreScore(-1,0,1,0);
+					GameStateManager.STATE = GameStateManager.GameState.MailReading;
 					SceneManager.LoadScene("EndingScene");
 				}
 				else if (FailFrames >= 1200)
 				{
 					Debug.Log("Ending2");
 					GameSaveManager.StoreScore(1,0,-1,1);
+					GameStateManager.STATE = GameStateManager.GameState.MailReading;
 					SceneManager.LoadScene("TechnicalDifficultyEnding");
 				}
 				else
 				{
 					Debug.Log("Ending3");
 					GameSaveManager.StoreScore(1,0,-1,0);
+					GameStateManager.STATE = GameStateManager.GameState.MailReading;
 					SceneManager.LoadScene("EndingScene");
 				}
 
