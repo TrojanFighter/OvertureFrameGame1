@@ -18,9 +18,10 @@ public static class XMLReader{
 //			} else {
 //				xDoc.Load (path);
 //			}
-			TextAsset commentsXML = Resources.Load<TextAsset> (path);
+			//TextAsset commentsXML = Resources.Load<TextAsset> (path);
 			//Debug.Log (commentsXML.text);
-			xDoc.LoadXml (commentsXML.text);
+			//xDoc.LoadXml (commentsXML.text);
+		xDoc.Load (path);
 		XmlNamespaceManager xnm = new XmlNamespaceManager(xDoc.NameTable);
 		xnm.AddNamespace("WB", "urn:schemas-microsoft-com:office:spreadsheet");
 		XmlElement root = xDoc.DocumentElement;
