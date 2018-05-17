@@ -14,7 +14,7 @@ public class ProgressConfigInspector : Editor
 	{
 		DrawDefaultInspector ();
 		ProgressConfig progressConfig = (ProgressConfig)target;
-		if(GUILayout.Button("Reset Achievements"))
+		if(GUILayout.Button("Reset Progress"))
 		{
 			progressConfig.ResetProgress();
 		}	

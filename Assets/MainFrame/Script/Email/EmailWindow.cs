@@ -24,7 +24,8 @@ namespace Overture.FrameGame
 		{
 			m_Title.text = content.TITLE;
 			m_Author.text = content.SENDER;
-			m_EmailBody.text = content.BODY_TEXT;
+			string replacedbody = content.BODY_TEXT.Replace("\\n","\n");
+			m_EmailBody.text =  replacedbody;
 		}
 		
 		
