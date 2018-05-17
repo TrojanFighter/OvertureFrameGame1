@@ -38,8 +38,8 @@ namespace Overture.CommentCensor
             m_CommentDictionary = new Dictionary<int, Comment>();
             m_CommentReferenceDictionary = new Dictionary<float, int>();
             m_CommentUIDictionary = new Dictionary<int, CommentUIPrefab>();
-            m_CommentDictionary = XMLReader.ReadCommentsFile(Application.streamingAssetsPath+ "/" +GlobalDefine.FileName.Comments[(int)m_CurrentLevel]+".XML");
-            //m_CommentDictionary = XMLReader.ReadCommentsFile(GlobalDefine.PathDefines.XML_Path +GlobalDefine.FileName.Comments[(int)m_CurrentLevel]);
+            //m_CommentDictionary = XMLReader.ReadCommentsFile(Application.streamingAssetsPath+ "/" +GlobalDefine.FileName.Comments[(int)m_CurrentLevel]+".XML");
+            m_CommentDictionary = XMLReader.ReadCommentsFile(GlobalDefine.PathDefines.XML_Path +GlobalDefine.FileName.Comments[(int)m_CurrentLevel]);
 
             foreach (KeyValuePair<int, Comment> comment in m_CommentDictionary)
             {
