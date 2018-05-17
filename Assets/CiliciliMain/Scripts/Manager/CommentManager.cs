@@ -21,6 +21,7 @@ namespace Overture.CommentCensor
         public VideoPlayer m_videoPlayer;
         private Dictionary<int, Comment> m_CommentDictionary;
         private Dictionary<int, CommentUIPrefab> m_CommentUIDictionary;
+        private List<float> m_launchedCommentTime;
         private int nextcommentID = 0;
         private Dictionary<float, int> m_CommentReferenceDictionary;
         public Transform CommentRoot;
@@ -38,6 +39,7 @@ namespace Overture.CommentCensor
             m_CommentDictionary = new Dictionary<int, Comment>();
             m_CommentReferenceDictionary = new Dictionary<float, int>();
             m_CommentUIDictionary = new Dictionary<int, CommentUIPrefab>();
+            m_launchedCommentTime=new List<float>();
             //m_CommentDictionary = XMLReader.ReadCommentsFile(Application.streamingAssetsPath+ "/" +GlobalDefine.FileName.Comments[(int)m_CurrentLevel]+".XML");
             m_CommentDictionary = XMLReader.ReadCommentsFile(GlobalDefine.PathDefines.XML_Path +GlobalDefine.FileName.Comments[(int)m_CurrentLevel]);
 
@@ -108,7 +110,11 @@ namespace Overture.CommentCensor
                 //if (Mathf.Abs(commentTime - Time.fixedTime) < Time.fixedDeltaTime / 2)
                 if (Mathf.Abs(commentTime - (float)m_videoPlayer.time) < Time.fixedDeltaTime / 2)    
                 {
-                    LaunchComment(m_CommentReferenceDictionary[commentTime]);
+                    if (!m_launchedCommentTime.Contains(commentTime))
+                    {
+                        LaunchComment(m_CommentReferenceDictionary[commentTime]);
+                        m_launchedCommentTime.Add(commentTime);
+                    }
                 }
             }
         }
