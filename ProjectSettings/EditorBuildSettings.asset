@@ -71,3 +71,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainFrame/Scenes/Commercial.unity
     guid: 349a003d8bfd06648b588df9ccfb1992
+  m_configObjects: {}
